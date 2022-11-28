@@ -26,4 +26,6 @@ class LogParser:
         df_log.rename(columns={0: 'Date', 1: 'Time', 2: 'Type', 3: 'Action'}, inplace=True)
         df_log = df_log[::-1].reset_index(drop=True)
 
+        #df_log.index = np.arange(1, len(df_log) + 1)
+
         return df_log
