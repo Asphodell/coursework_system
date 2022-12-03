@@ -1,5 +1,5 @@
 import re
-
+from datetime import datetime
 import numpy as np
 import pandas as pd
 
@@ -17,7 +17,7 @@ class Statistics:
             checking_str = df_log['Action'].loc[df_log.index[i]]
             expires_time = re.search(r"\d\d:\d\d:\d\d", checking_str)
 
-            if expires_time != None:
+            if expires_time is not None:
                 begin_time = df_log['Time'].loc[df_log.index[i]]
                 username = re.sub(r"[\W\d+]", "", re.search(r"\(.*?\)", checking_str)[0])
 
@@ -26,63 +26,45 @@ class Statistics:
 
         df_time_and_user.rename(columns={0: "Begin Time", 1: "Expires Time", 2: "User"}, inplace=True)
 
-        # df_time_and_user.index = np.arange(1, len(df_time_and_user) + 1)
+        df_time_and_user.index = np.arange(1, len(df_time_and_user) + 1)
+
 
         return df_time_and_user
 
     def total_time(self):
         df = self.time_and_user()
-        users = df['User'].value_counts()
-        df = df.drop_duplicates(subset=['User'])
+        df1 = df
+
+        df = df.drop_duplicates(subset=['User'], keep='last')
+        df1 = df1.drop_duplicates(subset=['User'])
+
+        df = df.sort_values(by='User')
+        df1 = df1.sort_values(by='User')
+
         df.reset_index(drop=True, inplace=True)
+        df1.reset_index(drop=True, inplace=True)
+
+        fmt = '%H:%M:%S'
 
         column = pd.DataFrame()
 
-        df_total_btime = pd.DataFrame()
-        df_total_etime = pd.DataFrame()
-
         for i in range(len(df)):
-            bhours = int(str(df["Begin Time"].loc[df.index[i]])[:2])
-            bminutes = int(str(df["Begin Time"].loc[df.index[i]])[3:5])
-            bseconds = int(str(df["Begin Time"].loc[df.index[i]])[6:8])
-            total_btime = (bhours * 60 * 60) + (bminutes * 60) + bseconds
+            tdelta = datetime.strptime(str(df['Expires Time'].loc[df.index[i]]), fmt) - datetime.strptime(
+                str(df1['Begin Time'].loc[df1.index[i]]), fmt)
 
-            ehours = int(str(df["Expires Time"].loc[df.index[i]])[:2])
-            eminutes = int(str(df["Expires Time"].loc[df.index[i]])[3:5])
-            eseconds = int(str(df["Expires Time"].loc[df.index[i]])[6:8])
-            total_etime = (ehours * 60 * 60) + (eminutes * 60) + eseconds
+            a = re.search(r"\d+:\d\d:\d\d", str(tdelta))
+            sec = abs(tdelta.total_seconds())
+            d_t_obj = datetime.strptime(str(a[0]), '%H:%M:%S')
+            total = int(d_t_obj.strftime('%S'))
+            total += int(d_t_obj.strftime('%M')) * 60
+            total += int(d_t_obj.strftime('%H')) * 60 * 60
+            total2 = total + sec + total
+            column = pd.concat([pd.DataFrame([[total2]]), column], ignore_index=True)
 
-            df_total_btime = pd.concat([pd.DataFrame([[total_btime]]), df_total_btime])[::-1]
-            df_total_etime = pd.concat([pd.DataFrame([[total_etime]]), df_total_etime])[::-1]
+        column = column[::-1].reset_index(drop=True)
 
-        df_total_btime = df_total_btime.reset_index(drop=True)
-        df['BeginSec'] = df_total_btime
-
-        df_total_etime = df_total_etime.reset_index(drop=True)
-        df['ExpSec'] = df_total_etime
-
-        total_time = 0
-
-        print(len(users))
-
-        for j in range(len(df) - 1):
-            if df['ExpSec'].loc[df.index[j]] < df['BeginSec'].loc[df.index[j + 1]]:
-                total_time += (df['BeginSec'].loc[df.index[j + 1]] - df['BeginSec'].loc[df.index[j]])
-                column = pd.concat([pd.DataFrame([[total_time]]), column])[::-1]
-            else:
-                total_time += 30
-
-            print(total_time)
-
-        column = column.reset_index(drop=True)
         df['Total Time'] = column
-        print(df)
-        # for i in range(len(users)):
-        #    total_time = users[i] * 30
 
-        # df.pop('Begin Time')
-        # df.pop('Expires Time')
-#
-# df.index = np.arange(1, len(df) + 1)
-#
-# return df
+        df = df.drop(columns=['Begin Time', 'Expires Time'])
+
+        return df

@@ -20,17 +20,12 @@ def main():
     file_path = args.logs_file
     lp = floating_parser.LogParser(file_path)
     df = lp.build_df()
+
     st = floating_statistics.Statistics(df)
-    #vz = floating_visualizer.Visualizer(st.time_and_user(), st.total_time())
 
-    #vz.total_time_bar()
-    #vz.time_n_user()
-
-    #print(lp.build_df())
-
-    #print(st.time_and_user())
-    print(st.total_time())
-
+    vz = floating_visualizer.Visualizer(st.time_and_user(), st.total_time())
+    vz.total_time_bar()
+    vz.users_graph()
 
 
 if __name__ == "__main__":
