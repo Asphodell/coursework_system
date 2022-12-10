@@ -8,7 +8,7 @@ class Statistics:
     def __init__(self, df_log):
         self.df_log = df_log
 
-    def time_and_user(self):  # only ONE checking str in many functions ?? (before all functions)
+    def time_and_user(self):
         df_log = self.df_log[::-1].reset_index(drop=True)
         df_time_and_user = pd.DataFrame()
 
@@ -68,3 +68,29 @@ class Statistics:
         df = df.drop(columns=['Begin Time', 'Expires Time'])
 
         return df
+
+    def start_stop(self):
+        df = self.df_log
+        df_start_stop = pd.DataFrame()
+
+        for i in range(len(df)):
+            checking_str = df['Action'].loc[df.index[i]]
+            time = df['Time'].loc[df.index[i]]
+
+            pattern_act = 'Activated successfully.'
+            pattern_deact = 'Deactivated successfully.'
+            activation = re.search(pattern_act, checking_str)
+            deactivation = re.search(pattern_deact, checking_str)
+
+            if deactivation is not None:
+                df_start_stop = pd.concat(
+                    [pd.DataFrame([[time, deactivation[0]]]), df_start_stop], ignore_index=True)
+
+            if activation is not None:
+                df_start_stop = pd.concat(
+                    [pd.DataFrame([[time, activation[0]]]), df_start_stop], ignore_index=True)
+
+        df_start_stop = df_start_stop[::-1].reset_index(drop=True)
+        df_start_stop.rename(columns={0: "Time", 1: "Process"}, inplace=True)
+
+        return df_start_stop
