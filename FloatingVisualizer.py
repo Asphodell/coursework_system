@@ -34,8 +34,8 @@ class Visualizer:
         fig = make_subplots()
 
         for i in range(len(df)):
-            x.append(str(df['Begin Time'].loc[df.index[i]]))
-            x.append(str(df['Expires Time'].loc[df.index[i]]))
+            x.append(str(df['Begin Time'].loc[df.index[i]]) + " " + df['Date'].loc[df.index[i]])
+            x.append(str(df['End Time'].loc[df.index[i]]) + " " + df['Date'].loc[df.index[i]])
             y.append(str(df['User'].loc[df.index[i]]))
             y.append(str(df['User'].loc[df.index[i]]))
 
