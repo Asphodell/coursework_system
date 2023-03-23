@@ -8,52 +8,74 @@ class Statistics:
     def __init__(self, df_log):
         self.df_log = df_log
 
-    def time_and_user(self):
+    def time_user(self):
         df_log = self.df_log[::-1].reset_index(drop=True)
-        df_time_and_user = pd.DataFrame()
+        df_time_user = pd.DataFrame()
+        end_time_column = pd.DataFrame()
 
         for i in range(len(df_log)):
-
             checking_str = df_log['Action'].loc[df_log.index[i]]
-            expires_time = re.search(r"\d\d:\d\d:\d\d", checking_str)
+            new_lease = "New lease assigned"
+            release_lease = "Lease was released"
+            expired_lease = "Lease has expired"
+            deactivated = "Failed to activate"
 
-            if expires_time is not None:
+            if new_lease in checking_str:
+                username = re.search(r"\(.*?\)", checking_str).group(0)
+                username = re.sub(r'[()]', '', username)
                 begin_time = df_log['Time'].loc[df_log.index[i]]
-                username = re.sub(r"[\W\d+]", "", re.search(r"\(.*?\)", checking_str)[0])
+                date = df_log['Date'].loc[df_log.index[i]]
+                df_time_user = pd.concat([pd.DataFrame([[date, username, begin_time]]), df_time_user],
+                                         ignore_index=True)
 
-                df_time_and_user = pd.concat(
-                    [pd.DataFrame([[begin_time, expires_time[0], username]]), df_time_and_user], ignore_index=True)
+            if expired_lease in checking_str or release_lease in checking_str:
+                username = re.search(r"\(.*?\)", checking_str).group(0)
+                username = re.sub(r'[()]', '', username)
+                end_time = df_log['Time'].loc[df_log.index[i]]
+                end_time_column = pd.concat([pd.DataFrame([[username, end_time]]), end_time_column], ignore_index=True)
 
-        df_time_and_user.rename(columns={0: "Begin Time", 1: "Expires Time", 2: "User"}, inplace=True)
+            if deactivated in checking_str:
+                username = ""
+                end_time = df_log['Time'].loc[df_log.index[i]]
+                end_time_column = pd.concat([pd.DataFrame([[username, end_time]]), end_time_column], ignore_index=True)
 
-        df_time_and_user.index = np.arange(1, len(df_time_and_user) + 1)
+        df_time_user.rename(columns={0: "Date", 1: "User", 2: "Begin Time"}, inplace=True)
+        end_time_column.rename(columns={0: "User", 1: "End time"}, inplace=True)
+        df_time_user['End Time'] = end_time_column['End time']
 
-        return df_time_and_user
+        return df_time_user
 
     def total_time(self):
-        df = self.time_and_user()
-
-        df = df.drop_duplicates(subset=['User'], keep='last')
-
-        df = df.sort_values(by='User')
-
-        df.reset_index(drop=True, inplace=True)
-
-        column = pd.DataFrame()
+        df = self.time_user()
+        difference_column = pd.DataFrame()
+        total = 0
 
         for i in range(len(df)):
-            beg_time_str = str(df['Begin Time'].loc[df.index[i]])
-            beg_time_obj = datetime.datetime.strptime(beg_time_str, "%H:%M:%S").time()
-            time_delta = datetime.timedelta(hours=beg_time_obj.hour, minutes=beg_time_obj.minute,
-                                            seconds=beg_time_obj.second)
-            seconds = time_delta.total_seconds()
-            column = pd.concat([pd.DataFrame([[seconds]]), column], ignore_index=True)
+            difference = datetime.datetime.strptime(str(df['End Time'].loc[df.index[i]]), '%H:%M:%S') - \
+                         datetime.datetime.strptime(str(df['Begin Time'].loc[df.index[i]]), '%H:%M:%S')
+            if difference.total_seconds() < 0:
+                difference = (24*60*60) + difference.total_seconds()
+            else:
+                difference = difference.total_seconds()
+            difference_column = pd.concat([pd.DataFrame([[difference]]), difference_column], ignore_index=True)
 
-        column = column[::-1].reset_index(drop=True)
+        difference_column = difference_column[::-1].reset_index(drop=True)
+        df["Diff"] = difference_column
+        df = df.rename_axis('index')
+        df = df.sort_values(by=['User', 'index'])
 
-        df['Total Time'] = column
+        total_column = pd.DataFrame()
 
-        df = df.drop(columns=['Begin Time', 'Expires Time'])
+        for i in range(len(df) - 1):
+            if df['User'].loc[df.index[i]] == df['User'].loc[df.index[i + 1]]:
+                total += df['Diff'].loc[df.index[i]] + df['Diff'].loc[df.index[i]]
+            else:
+                total_column = pd.concat([pd.DataFrame([[total]]), total_column], ignore_index=True)
+                total = 0
+
+        df = df.groupby('User').sum(numeric_only = True)
+        df = df.reset_index()
+        df = df.rename(columns={'Diff': 'Total Time'})
 
         return df
 
