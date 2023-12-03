@@ -37,7 +37,7 @@ class Visualizer:
         df['Color'] = color_column
 
         return df
-
+    
     def users_graph(self):
         df = self.df_time_and_user
 

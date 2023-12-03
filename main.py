@@ -1,30 +1,25 @@
 import argparse
-import json
 import pathlib
 from datetime import date
 
 import floating_parser
 import floating_statistics
 import floating_visualizer
-
-from email.mime.application import MIMEApplication
-from email.mime.multipart import MIMEMultipart
-import smtplib
-
+import floating_mail_sender
 
 def main():
     default_logs_path = pathlib.Path().cwd() / "tfs-log.txt"
     argparser = argparse.ArgumentParser(description="Logs data to graphs")
     argparser.add_argument("-p", "--logs-path",
-                           action="store",
-                           dest="logs_file",
-                           required=True,
-                           default=default_logs_path,
-                           help=f"Full path to the Floating server logs file. Default path {default_logs_path}")
+                            action="store",
+                            dest="logs_file",
+                            required=True,
+                            default=default_logs_path,
+                            help=f"Full path to the Floating server logs file. Default path {default_logs_path}")
 
     argparser.add_argument("-s", "--send",
-                           action="store_true",
-                           help="Login, password and receiver should be in config.json")
+                            action="store_true",
+                            help="Login, password and receiver should be in config.json")
 
     args = argparser.parse_args()
 
@@ -41,51 +36,15 @@ def main():
     vz = floating_visualizer.Visualizer(
         df_time_user,
         df_total_time,
-        df_start_stop,
+        df_start_stop,  
     )
 
     vz.to_one()
+    
+    snd = floating_mail_sender.Sender('Report ' + str(date.today()), 'report ' + str(date.today()) + '.html')
 
     if args.send:
-        send_mail('Report ' + str(date.today()), 'report ' + str(date.today()) + '.html')
-
-
-def send_mail(subject, filename):
-    with open('config.json', 'r') as file:
-        data = json.load(file)
-
-    login = data['login']
-    password = data['password']
-    receiver = data['receiver']
-
-    msg = MIMEMultipart()
-    msg['From'] = login
-    msg['To'] = receiver
-    msg['Subject'] = subject
-
-    with open(filename, 'rb') as html_file:
-        attachment = MIMEApplication(html_file.read(), _subtype='html')
-        attachment.add_header('Content-Disposition', 'attachment', filename="report.html")
-        msg.attach(attachment)
-
-    server = smtplib.SMTP_SSL('smtp.yandex.ru', 465)
-    server.ehlo(login)
-
-    server.login(
-        login,
-        password,
-    )
-
-    server.auth_plain()
-
-    server.sendmail(
-        login,
-        receiver,
-        msg.as_string(),
-    )
-
-    server.quit()
-
+        snd.send_mail()
 
 if __name__ == "__main__":
     main()

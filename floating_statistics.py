@@ -25,7 +25,7 @@ class Statistics:
                 begin_time = df_log['Time'].loc[df_log.index[i]]
                 date = df_log['Date'].loc[df_log.index[i]]
                 df_time_user = pd.concat([pd.DataFrame([[date, username, begin_time]]), df_time_user],
-                                         ignore_index=True)
+                                        ignore_index=True)
 
             if expired_lease in checking_str or release_lease in checking_str:
                 username = re.search(r"\(.*?\)", checking_str).group(0)
@@ -51,7 +51,7 @@ class Statistics:
 
         for i in range(len(df)):
             difference = datetime.datetime.strptime(str(df['End Time'].loc[df.index[i]]), '%H:%M:%S') - \
-                         datetime.datetime.strptime(str(df['Begin Time'].loc[df.index[i]]), '%H:%M:%S')
+                        datetime.datetime.strptime(str(df['Begin Time'].loc[df.index[i]]), '%H:%M:%S')
             if difference.total_seconds() < 0:
                 difference = (24*60*60) + difference.total_seconds()
             else:
