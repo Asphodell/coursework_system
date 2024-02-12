@@ -1,3 +1,7 @@
+'''
+The module is responsible for rendering data in an .html file
+'''
+
 from datetime import date
 
 import pandas as pd
@@ -7,6 +11,10 @@ from plotly.subplots import make_subplots
 
 
 class Visualizer:
+    '''
+    The class contains data visualization methods
+    '''
+
     colors = px.colors.qualitative.Alphabet + px.colors.qualitative.Dark24 + px.colors.qualitative.Light24  # count of
     # colors: 74
 
@@ -16,6 +24,10 @@ class Visualizer:
         self.df_start_and_stop = df_start_and_stop
 
     def total_time_bar(self):
+        '''
+        Build pie chart to compare total time spent
+        '''
+
         df = self.df_total_time
 
         df_with_color = self.one_user_one_color()
@@ -26,6 +38,10 @@ class Visualizer:
         return fig
 
     def one_user_one_color(self):
+        '''
+        Assigns a unique color to each user
+        '''
+
         df = self.df_total_time
 
         df = df.sort_values('Total Time', ascending=False)
@@ -39,6 +55,10 @@ class Visualizer:
         return df
     
     def users_graph(self):
+        '''
+        Building a linear graph to track a specific point in time of use
+        '''
+
         df = self.df_time_and_user
 
         df_color = self.one_user_one_color()
@@ -71,6 +91,10 @@ class Visualizer:
         return fig
 
     def start_stop_graph(self):
+        '''
+        Plots the tracking of activation and deactivation points
+        '''
+
         df = self.df_start_and_stop
         fig = px.scatter(df, x='Time', y='Process')
 
@@ -79,11 +103,15 @@ class Visualizer:
         return fig
 
     def to_one(self):
+        '''
+        Combines the generated graphics into a single .html file
+        '''
+
         total_graph = self.total_time_bar()
         users_graph = self.users_graph()
         start_stop_graph = self.start_stop_graph()
         date_today = str(date.today())
-        with open(f'report {date_today}' + '.html', 'a') as f:
+        with open(f'report {date_today}' + '.html', 'a', encoding="utf-8") as f:
             f.write(total_graph.to_html(full_html=False, include_plotlyjs='cdn'))
             f.write(users_graph.to_html(full_html=False, include_plotlyjs='cdn'))
             f.write(start_stop_graph.to_html(full_html=True, include_plotlyjs='cdn'))
