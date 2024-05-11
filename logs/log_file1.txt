@@ -1,0 +1,1058 @@
+2019-02-26, 15:01:48 <notification>: Auto-detected 1 CPU cores; creating a thread pool that large.
+2019-02-26, 15:07:15 <notification>: New connection from IP: ::ffff:000.000.0.01
+2019-02-26, 15:07:15 <notification>: New lease assigned (Vasya, 1). Expires: 2019-02-26 12:37:15 (in UTC). Used / Total leases: 1 / 5
+2019-02-26, 15:07:15 <notification>: New connection from IP: ::ffff:000.000.0.01
+2019-02-26, 15:07:15 <notification>: Lease was released by client (Vasya, 1). Used / Total leases: 0 / 5
+2019-02-26, 15:08:25 <notification>: New connection from IP: ::ffff:000.000.0.01
+2019-02-26, 15:08:25 <notification>: New lease assigned (Vasya, 1). Expires: 2019-02-26 12:38:25 (in UTC). Used / Total leases: 1 / 5
+2019-02-26, 15:12:28 <notification>: Auto-detected 1 CPU cores; creating a thread pool that large.
+2019-02-26, 15:12:28 <error>: You can only run one instance of this floating license server at a time.
+2019-02-26, 15:13:08 <notification>: Auto-detected 1 CPU cores; creating a thread pool that large.
+2019-02-26, 15:13:08 <error>: You can only run one instance of this floating license server at a time.
+2019-02-26, 15:15:22 <notification>: Auto-detected 1 CPU cores; creating a thread pool that large.
+2019-02-26, 15:15:22 <notification>: Existing lease loaded (Vasya, 1). Expires: 2019-02-26 12:38:25 (in UTC). Used / Total leases: 1 / 5
+2019-02-26, 15:23:25 <notification>: New connection from IP: ::ffff:000.000.0.01
+2019-02-26, 15:23:25 <notification>: Extended existing lease (Vasya, 1). New expiration time: 2019-02-26 12:53:25 (in UTC).
+2019-02-26, 15:36:13 <notification>: Auto-detected 1 CPU cores; creating a thread pool that large.
+2019-02-26, 15:37:12 <notification>: Deactivated successfully.
+2019-02-26, 15:37:51 <error>: Failed to activate.
+2019-02-26, 15:37:51 <error>: The product key has already been activated on the maximum number of computers.
+2019-02-26, 15:38:06 <notification>: Activated successfully.
+2019-02-26, 15:38:21 <notification>: Auto-detected 1 CPU cores; creating a thread pool that large.
+2019-02-26, 15:46:08 <notification>: Auto-detected 1 CPU cores; creating a thread pool that large.
+2019-02-26, 15:46:16 <notification>: New connection from IP: ::ffff:000.000.0.01
+2019-02-26, 15:46:16 <notification>: New lease assigned (Vasya, 1). Expires: 2019-02-26 13:16:16 (in UTC). Used / Total leases: 1 / 5
+2019-02-26, 15:46:16 <notification>: New connection from IP: ::ffff:000.000.0.01
+2019-02-26, 15:46:16 <notification>: Lease was released by client (Vasya, 1). Used / Total leases: 0 / 5
+2019-02-26, 15:49:41 <notification>: New connection from IP: ::ffff:000.000.0.01
+2019-02-26, 15:49:41 <notification>: New lease assigned (Vasya, 1). Expires: 2019-02-26 13:19:41 (in UTC). Used / Total leases: 1 / 5
+2019-02-26, 16:02:11 <notification>: New connection from IP: ::ffff:000.000.0.01
+2019-02-26, 16:02:11 <notification>: Lease was released by client (Vasya, 1). Used / Total leases: 0 / 5
+2019-02-27, 19:28:28 <notification>: Auto-detected 1 CPU cores; creating a thread pool that large.
+2019-02-27, 19:28:58 <notification>: Activated successfully.
+2019-02-27, 19:29:48 <notification>: Auto-detected 1 CPU cores; creating a thread pool that large.
+2019-02-27, 19:29:58 <notification>: Auto-detected 1 CPU cores; creating a thread pool that large.
+2019-02-27, 19:30:04 <notification>: Auto-detected 1 CPU cores; creating a thread pool that large.
+2019-02-27, 19:30:16 <notification>: New connection from IP: ::ffff:000.000.0.01
+2019-02-27, 19:30:16 <notification>: New lease assigned (Vasya, 1). Expires: 2019-02-27 17:00:16 (in UTC). Used / Total leases: 1 / 5
+2019-02-27, 19:30:16 <notification>: New connection from IP: ::ffff:000.000.0.01
+2019-02-27, 19:30:16 <notification>: Lease was released by client (Vasya, 1). Used / Total leases: 0 / 5
+2019-02-27, 19:34:42 <notification>: New connection from IP: ::ffff:000.000.0.01
+2019-02-27, 19:34:42 <notification>: New lease assigned (Vasya, 1). Expires: 2019-02-27 17:04:42 (in UTC). Used / Total leases: 1 / 5
+2019-02-27, 19:34:42 <notification>: New connection from IP: ::ffff:000.000.0.01
+2019-02-27, 19:34:42 <notification>: Lease was released by client (Vasya, 1). Used / Total leases: 0 / 5
+2019-02-27, 22:49:56 <notification>: Auto-detected 1 CPU cores; creating a thread pool that large.
+2019-02-27, 22:50:16 <notification>: Activated successfully.
+2019-02-27, 22:50:19 <notification>: Auto-detected 1 CPU cores; creating a thread pool that large.
+2019-02-27, 22:52:06 <notification>: Auto-detected 1 CPU cores; creating a thread pool that large.
+2019-02-27, 22:53:36 <notification>: New connection from IP: ::ffff:000.000.0.03
+2019-02-27, 22:53:37 <warning>: The sent data exceeds the maximum allowed data. Request has been rejected. (Data came from a computer at ::ffff:000.000.0.03)
+2019-02-27, 23:35:41 <notification>: New connection from IP: ::ffff:000.000.0.02
+2019-02-27, 23:36:28 <notification>: New connection from IP: ::ffff:000.000.0.02
+2019-02-27, 23:36:28 <notification>: New lease assigned (Petya, 1). Expires: 2019-02-27 21:06:28 (in UTC). Used / Total leases: 1 / 5
+2019-02-27, 23:37:55 <notification>: New connection from IP: ::ffff:000.000.0.02
+2019-02-27, 23:37:55 <notification>: Lease was released by client (Petya, 1). Used / Total leases: 0 / 5
+2019-02-27, 23:38:59 <notification>: New connection from IP: ::ffff:000.000.0.02
+2019-02-27, 23:38:59 <notification>: New lease assigned (Petya, 1). Expires: 2019-02-27 21:08:59 (in UTC). Used / Total leases: 1 / 5
+2019-02-27, 23:39:07 <notification>: New connection from IP: ::ffff:000.000.0.02
+2019-02-27, 23:39:07 <notification>: Lease was released by client (Petya, 1). Used / Total leases: 0 / 5
+2019-02-27, 23:47:14 <notification>: New connection from IP: ::ffff:000.000.0.02
+2019-02-27, 23:47:14 <notification>: New lease assigned (Petya, 1). Expires: 2019-02-27 21:17:14 (in UTC). Used / Total leases: 1 / 5
+2019-02-27, 23:47:21 <notification>: New connection from IP: ::ffff:000.000.0.02
+2019-02-27, 23:47:21 <notification>: Lease was released by client (Petya, 1). Used / Total leases: 0 / 5
+2019-03-02, 12:30:28 <notification>: New connection from IP: ::ffff:000.000.0.04
+2019-03-02, 12:30:28 <warning>: The sent data exceeds the maximum allowed data. Request has been rejected. (Data came from a computer at ::ffff:000.000.0.04)
+2019-03-03, 19:59:51 <notification>: New connection from IP: ::ffff:000.000.0.05
+2019-03-03, 19:59:51 <warning>: The sent data exceeds the maximum allowed data. Request has been rejected. (Data came from a computer at ::ffff:000.000.0.05)
+2019-03-06, 01:27:54 <notification>: New connection from IP: ::ffff:000.000.0.06
+2019-03-06, 01:27:54 <warning>: The sent data exceeds the maximum allowed data. Request has been rejected. (Data came from a computer at ::ffff:000.000.0.06)
+2019-03-06, 01:27:54 <notification>: New connection from IP: ::ffff:000.000.0.06
+2019-03-06, 01:27:54 <warning>: The sent data exceeds the maximum allowed data. Request has been rejected. (Data came from a computer at ::ffff:000.000.0.06)
+2019-03-06, 06:50:19 <notification>: New connection from IP: ::ffff:000.000.0.07
+2019-03-06, 06:50:19 <warning>: The sent data exceeds the maximum allowed data. Request has been rejected. (Data came from a computer at ::ffff:000.000.0.07)
+2019-03-07, 17:03:55 <notification>: New connection from IP: ::ffff:000.000.0.08
+2019-03-07, 17:03:55 <notification>: New lease assigned (Petya, 1). Expires: 2019-03-07 14:33:55 (in UTC). Used / Total leases: 1 / 5
+2019-03-07, 17:04:38 <notification>: New connection from IP: ::ffff:000.000.0.08
+2019-03-07, 17:04:38 <notification>: Lease was released by client (Petya, 1). Used / Total leases: 0 / 5
+2019-03-07, 17:04:55 <notification>: New connection from IP: ::ffff:000.000.0.08
+2019-03-07, 17:04:55 <notification>: New lease assigned (Petya, 1). Expires: 2019-03-07 14:34:55 (in UTC). Used / Total leases: 1 / 5
+2019-03-07, 17:05:04 <notification>: New connection from IP: ::ffff:000.000.0.08
+2019-03-07, 17:05:04 <notification>: Lease was released by client (Petya, 1). Used / Total leases: 0 / 5
+2019-03-07, 17:05:29 <notification>: New connection from IP: ::ffff:000.000.0.08
+2019-03-07, 17:05:29 <notification>: New lease assigned (Petya, 1). Expires: 2019-03-07 14:35:29 (in UTC). Used / Total leases: 1 / 5
+2019-03-07, 17:05:33 <notification>: New connection from IP: ::ffff:000.000.0.08
+2019-03-07, 17:05:33 <notification>: Lease was released by client (Petya, 1). Used / Total leases: 0 / 5
+2019-03-11, 03:27:33 <notification>: New connection from IP: ::ffff:000.000.0.09
+2019-03-11, 03:27:33 <warning>: The sent data exceeds the maximum allowed data. Request has been rejected. (Data came from a computer at ::ffff:000.000.0.09)
+2019-03-13, 23:53:04 <notification>: New connection from IP: ::ffff:000.000.0.10
+2019-03-13, 23:53:05 <notification>: New connection from IP: ::ffff:000.000.0.10
+2019-03-13, 23:53:05 <warning>: The sent data exceeds the maximum allowed data. Request has been rejected. (Data came from a computer at ::ffff:000.000.0.10)
+2019-03-14, 18:55:11 <notification>: New connection from IP: ::ffff:000.000.0.11
+2019-03-14, 18:55:14 <notification>: New connection from IP: ::ffff:000.000.0.11
+2019-03-14, 18:55:14 <warning>: The sent data exceeds the maximum allowed data. Request has been rejected. (Data came from a computer at ::ffff:000.000.0.11)
+2019-03-14, 22:52:08 <notification>: Successfully re-verified the license with the activation servers.
+2019-03-20, 22:02:44 <notification>: New connection from IP: ::ffff:000.000.0.03
+2019-03-20, 22:02:47 <warning>: The sent data exceeds the maximum allowed data. Request has been rejected. (Data came from a computer at ::ffff:000.000.0.03)
+2019-03-20, 22:07:47 <notification>: New connection from IP: ::ffff:000.000.0.12
+2019-03-20, 22:07:47 <warning>: The sent data exceeds the maximum allowed data. Request has been rejected. (Data came from a computer at ::ffff:000.000.0.12)
+2019-03-20, 22:07:49 <notification>: New connection from IP: ::ffff:000.000.0.12
+2019-03-20, 22:07:49 <warning>: The sent data exceeds the maximum allowed data. Request has been rejected. (Data came from a computer at ::ffff:000.000.0.12)
+2019-03-20, 22:08:13 <notification>: New connection from IP: ::ffff:000.000.0.13
+2019-03-20, 22:08:13 <notification>: New lease assigned (Petya, 1). Expires: 2019-03-20 19:38:13 (in UTC). Used / Total leases: 1 / 5
+2019-03-20, 22:08:21 <notification>: New connection from IP: ::ffff:000.000.0.13
+2019-03-20, 22:08:21 <notification>: Lease was released by client (Petya, 1). Used / Total leases: 0 / 5
+2019-03-20, 22:20:47 <notification>: New connection from IP: ::ffff:000.000.0.14
+2019-03-20, 22:20:47 <notification>: New lease assigned (Ilya, 501). Expires: 2019-03-20 19:50:47 (in UTC). Used / Total leases: 1 / 5
+2019-03-20, 22:23:39 <notification>: New connection from IP: ::ffff:000.000.0.14
+2019-03-20, 22:23:39 <notification>: Lease was released by client (Ilya, 501). Used / Total leases: 0 / 5
+2019-03-20, 22:23:50 <notification>: New connection from IP: ::ffff:000.000.0.14
+2019-03-20, 22:23:50 <notification>: New lease assigned (Ilya, 501). Expires: 2019-03-20 19:53:50 (in UTC). Used / Total leases: 1 / 5
+2019-03-20, 22:24:11 <notification>: New connection from IP: ::ffff:000.000.0.14
+2019-03-20, 22:24:11 <notification>: Lease was released by client (Ilya, 501). Used / Total leases: 0 / 5
+2019-03-20, 22:31:14 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-20, 22:31:14 <notification>: New lease assigned (Nastya, 628264). Expires: 2019-03-20 20:01:14 (in UTC). Used / Total leases: 1 / 5
+2019-03-20, 22:32:45 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-20, 22:32:45 <notification>: Lease was released by client (Nastya, 628264). Used / Total leases: 0 / 5
+2019-03-20, 22:33:15 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-20, 22:33:15 <notification>: New lease assigned (Nastya, 628264). Expires: 2019-03-20 20:03:15 (in UTC). Used / Total leases: 1 / 5
+2019-03-20, 22:35:30 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-20, 22:35:30 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-20 20:05:30 (in UTC).
+2019-03-20, 22:37:51 <notification>: New connection from IP: ::ffff:000.000.0.16
+2019-03-20, 22:37:51 <notification>: New lease assigned (User112, 123021). Expires: 2019-03-20 20:07:51 (in UTC). Used / Total leases: 2 / 5
+2019-03-20, 22:37:54 <notification>: New connection from IP: ::ffff:000.000.0.16
+2019-03-20, 22:37:54 <notification>: Lease was released by client (User112, 123021). Used / Total leases: 1 / 5
+2019-03-20, 22:37:55 <notification>: New connection from IP: ::ffff:000.000.0.16
+2019-03-20, 22:37:55 <notification>: New lease assigned (User112, 123021). Expires: 2019-03-20 20:07:55 (in UTC). Used / Total leases: 2 / 5
+2019-03-20, 22:48:15 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-20, 22:48:15 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-20 20:18:15 (in UTC).
+2019-03-20, 22:49:29 <notification>: New connection from IP: ::ffff:000.000.0.16
+2019-03-20, 22:49:29 <notification>: Lease was released by client (User112, 123021). Used / Total leases: 1 / 5
+2019-03-20, 22:50:30 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-20, 22:50:30 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-20 20:20:30 (in UTC).
+2019-03-20, 23:03:15 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-20, 23:03:16 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-20 20:33:15 (in UTC).
+2019-03-20, 23:05:31 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-20, 23:05:31 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-20 20:35:31 (in UTC).
+2019-03-20, 23:18:16 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-20, 23:18:16 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-20 20:48:16 (in UTC).
+2019-03-20, 23:20:31 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-20, 23:20:31 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-20 20:50:31 (in UTC).
+2019-03-20, 23:33:16 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-20, 23:33:16 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-20 21:03:16 (in UTC).
+2019-03-20, 23:33:17 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-20, 23:33:17 <notification>: Lease was released by client (Nastya, 628264). Used / Total leases: 0 / 5
+2019-03-20, 23:35:23 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-20, 23:35:23 <notification>: New lease assigned (Kirill, 572433). Expires: 2019-03-20 21:05:23 (in UTC). Used / Total leases: 1 / 5
+2019-03-20, 23:35:30 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-20, 23:36:37 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-20, 23:36:37 <notification>: Lease was released by client (Kirill, 572433). Used / Total leases: 0 / 5
+2019-03-20, 23:59:34 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-20, 23:59:34 <notification>: New lease assigned (Nastya, 628264). Expires: 2019-03-20 21:29:34 (in UTC). Used / Total leases: 1 / 5
+2019-03-20, 23:59:36 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-20, 23:59:36 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-20 21:29:36 (in UTC).
+2019-03-21, 00:00:25 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 00:00:25 <notification>: New lease assigned (User444, 123030). Expires: 2019-03-20 21:30:25 (in UTC). Used / Total leases: 2 / 5
+2019-03-21, 00:00:32 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 00:00:32 <notification>: Lease was released by client (User444, 123030). Used / Total leases: 1 / 5
+2019-03-21, 00:00:51 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 00:00:51 <notification>: New lease assigned (User444, 123030). Expires: 2019-03-20 21:30:51 (in UTC). Used / Total leases: 2 / 5
+2019-03-21, 00:01:29 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 00:01:29 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-20 21:31:29 (in UTC).
+2019-03-21, 00:13:15 <notification>: New connection from IP: ::ffff:000.000.4.44
+2019-03-21, 00:13:15 <notification>: New lease assigned (User553, 409972). Expires: 2019-03-20 21:43:15 (in UTC). Used / Total leases: 3 / 5
+2019-03-21, 00:13:22 <notification>: New connection from IP: ::ffff:000.000.4.44
+2019-03-21, 00:13:22 <notification>: Lease was released by client (User553, 409972). Used / Total leases: 2 / 5
+2019-03-21, 00:14:35 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 00:14:35 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-20 21:44:35 (in UTC).
+2019-03-21, 00:14:36 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 00:14:36 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-20 21:44:36 (in UTC).
+2019-03-21, 00:15:52 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 00:15:52 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-20 21:45:52 (in UTC).
+2019-03-21, 00:16:29 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 00:16:29 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-20 21:46:29 (in UTC).
+2019-03-21, 00:29:35 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 00:29:35 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-20 21:59:35 (in UTC).
+2019-03-21, 00:29:37 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 00:29:37 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-20 21:59:37 (in UTC).
+2019-03-21, 00:30:52 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 00:30:52 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-20 22:00:52 (in UTC).
+2019-03-21, 00:31:29 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 00:31:29 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-20 22:01:29 (in UTC).
+2019-03-21, 00:36:07 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 00:36:07 <notification>: Lease was released by client (User444, 123030). Used / Total leases: 1 / 5
+2019-03-21, 00:44:36 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 00:44:36 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-20 22:14:36 (in UTC).
+2019-03-21, 00:44:37 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 00:44:37 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-20 22:14:37 (in UTC).
+2019-03-21, 00:46:29 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 00:46:29 <notification>: New lease assigned (User444, 123030). Expires: 2019-03-20 22:16:29 (in UTC). Used / Total leases: 2 / 5
+2019-03-21, 00:57:17 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 00:57:17 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-20 22:27:17 (in UTC).
+2019-03-21, 00:58:39 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 00:58:39 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-20 22:28:39 (in UTC).
+2019-03-21, 00:59:20 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 00:59:20 <notification>: Lease was released by client (User444, 123030). Used / Total leases: 1 / 5
+2019-03-21, 00:59:36 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 00:59:36 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-20 22:29:36 (in UTC).
+2019-03-21, 00:59:38 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 00:59:38 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-20 22:29:38 (in UTC).
+2019-03-21, 01:01:29 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 01:01:29 <notification>: New lease assigned (User444, 123030). Expires: 2019-03-20 22:31:29 (in UTC). Used / Total leases: 2 / 5
+2019-03-21, 01:13:40 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 01:13:40 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-20 22:43:40 (in UTC).
+2019-03-21, 01:14:37 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 01:14:37 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-20 22:44:37 (in UTC).
+2019-03-21, 01:14:38 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 01:14:38 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-20 22:44:38 (in UTC).
+2019-03-21, 01:14:38 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 01:14:38 <notification>: Lease was released by client (User444, 123030). Used / Total leases: 1 / 5
+2019-03-21, 01:15:20 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 01:21:23 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 01:21:23 <notification>: New lease assigned (User444, 123030). Expires: 2019-03-20 22:51:23 (in UTC). Used / Total leases: 2 / 5
+2019-03-21, 01:21:35 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 01:21:35 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-20 22:51:35 (in UTC).
+2019-03-21, 01:29:37 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 01:29:37 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-20 22:59:37 (in UTC).
+2019-03-21, 01:29:39 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 01:29:39 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-20 22:59:39 (in UTC).
+2019-03-21, 01:36:24 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 01:36:24 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-20 23:06:24 (in UTC).
+2019-03-21, 01:36:36 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 01:36:36 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-20 23:06:36 (in UTC).
+2019-03-21, 01:43:05 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 01:43:05 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-20 23:13:05 (in UTC).
+2019-03-21, 01:44:38 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 01:44:38 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-20 23:14:38 (in UTC).
+2019-03-21, 01:44:39 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 01:44:39 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-20 23:14:39 (in UTC).
+2019-03-21, 01:48:49 <notification>: New connection from IP: ::ffff:000.000.4.45
+2019-03-21, 01:48:49 <notification>: New lease assigned (Pupil, 313804). Expires: 2019-03-20 23:18:49 (in UTC). Used / Total leases: 3 / 5
+2019-03-21, 01:48:54 <notification>: New connection from IP: ::ffff:000.000.4.45
+2019-03-21, 01:48:54 <notification>: Lease was released by client (Pupil, 313804). Used / Total leases: 2 / 5
+2019-03-21, 01:51:24 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 01:51:24 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-20 23:21:24 (in UTC).
+2019-03-21, 01:58:05 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 01:58:05 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-20 23:28:05 (in UTC).
+2019-03-21, 01:59:38 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 01:59:38 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-20 23:29:38 (in UTC).
+2019-03-21, 01:59:40 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 01:59:40 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-20 23:29:40 (in UTC).
+2019-03-21, 02:14:39 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 02:14:39 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-20 23:44:39 (in UTC).
+2019-03-21, 02:14:40 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 02:14:40 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-20 23:44:40 (in UTC).
+2019-03-21, 02:15:20 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 02:15:20 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-20 23:45:20 (in UTC).
+2019-03-21, 02:16:22 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 02:16:22 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-20 23:46:22 (in UTC).
+2019-03-21, 02:18:18 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 02:18:18 <notification>: Lease was released by client (User444, 123030). Used / Total leases: 1 / 5
+2019-03-21, 02:29:39 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 02:29:39 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-20 23:59:39 (in UTC).
+2019-03-21, 02:29:41 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 02:29:41 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-20 23:59:41 (in UTC).
+2019-03-21, 02:44:40 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 02:44:40 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 00:14:40 (in UTC).
+2019-03-21, 02:44:41 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 02:44:41 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 00:14:41 (in UTC).
+2019-03-21, 02:47:01 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 02:47:01 <notification>: New lease assigned (User444, 123030). Expires: 2019-03-21 00:17:01 (in UTC). Used / Total leases: 2 / 5
+2019-03-21, 02:52:28 <notification>: New connection from IP: ::ffff:000.000.0.19
+2019-03-21, 02:52:28 <notification>: New lease assigned (User001, 453931). Expires: 2019-03-21 00:22:28 (in UTC). Used / Total leases: 3 / 5
+2019-03-21, 02:54:02 <notification>: New connection from IP: ::ffff:000.000.0.19
+2019-03-21, 02:54:02 <notification>: Lease was released by client (User001, 453931). Used / Total leases: 2 / 5
+2019-03-21, 02:59:40 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 02:59:40 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 00:29:40 (in UTC).
+2019-03-21, 02:59:42 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 02:59:42 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 00:29:42 (in UTC).
+2019-03-21, 03:02:02 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 03:02:02 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-21 00:32:02 (in UTC).
+2019-03-21, 03:14:41 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 03:14:41 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 00:44:41 (in UTC).
+2019-03-21, 03:14:42 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 03:14:42 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 00:44:42 (in UTC).
+2019-03-21, 03:17:02 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 03:17:02 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-21 00:47:02 (in UTC).
+2019-03-21, 03:29:41 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 03:29:41 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 00:59:41 (in UTC).
+2019-03-21, 03:29:43 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 03:29:43 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 00:59:43 (in UTC).
+2019-03-21, 03:32:03 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 03:32:03 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-21 01:02:03 (in UTC).
+2019-03-21, 03:44:42 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 03:44:42 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 01:14:42 (in UTC).
+2019-03-21, 03:44:43 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 03:44:43 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 01:14:43 (in UTC).
+2019-03-21, 03:47:01 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 03:47:01 <notification>: Lease was released by client (User444, 123030). Used / Total leases: 1 / 5
+2019-03-21, 03:59:42 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 03:59:42 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 01:29:42 (in UTC).
+2019-03-21, 03:59:44 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 03:59:44 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 01:29:44 (in UTC).
+2019-03-21, 04:00:00 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-21, 04:00:00 <notification>: New lease assigned (Kirill, 572433). Expires: 2019-03-21 01:30:00 (in UTC). Used / Total leases: 2 / 5
+2019-03-21, 04:06:36 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-21, 04:06:36 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-21 01:36:36 (in UTC).
+2019-03-21, 04:10:49 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-21, 04:10:49 <notification>: Lease was released by client (Kirill, 572433). Used / Total leases: 1 / 5
+2019-03-21, 04:10:52 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-21, 04:14:43 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 04:14:43 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 01:44:43 (in UTC).
+2019-03-21, 04:14:44 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 04:14:44 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 01:44:44 (in UTC).
+2019-03-21, 04:29:43 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 04:29:43 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 01:59:43 (in UTC).
+2019-03-21, 04:29:45 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 04:29:45 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 01:59:45 (in UTC).
+2019-03-21, 04:44:44 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 04:44:44 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 02:14:44 (in UTC).
+2019-03-21, 04:44:45 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 04:44:45 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 02:14:45 (in UTC).
+2019-03-21, 04:59:44 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 04:59:44 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 02:29:44 (in UTC).
+2019-03-21, 04:59:46 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 04:59:46 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 02:29:46 (in UTC).
+2019-03-21, 05:14:45 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 05:14:45 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 02:44:45 (in UTC).
+2019-03-21, 05:14:46 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 05:14:46 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 02:44:46 (in UTC).
+2019-03-21, 05:29:34 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 05:29:34 <notification>: Lease was released by client (Nastya, 628264). Used / Total leases: 0 / 5
+2019-03-21, 05:29:36 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 05:31:12 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 05:31:12 <notification>: New lease assigned (Nastya, 628264). Expires: 2019-03-21 03:01:12 (in UTC). Used / Total leases: 1 / 5
+2019-03-21, 05:31:15 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 05:31:15 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 03:01:15 (in UTC).
+2019-03-21, 05:46:13 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 05:46:13 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 03:16:13 (in UTC).
+2019-03-21, 05:46:16 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 05:46:16 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 03:16:16 (in UTC).
+2019-03-21, 06:01:13 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 06:01:13 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 03:31:13 (in UTC).
+2019-03-21, 06:01:16 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 06:01:16 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 03:31:16 (in UTC).
+2019-03-21, 06:16:14 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 06:16:14 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 03:46:14 (in UTC).
+2019-03-21, 06:16:17 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 06:16:17 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 03:46:17 (in UTC).
+2019-03-21, 06:31:14 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 06:31:14 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 04:01:14 (in UTC).
+2019-03-21, 06:31:17 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 06:31:17 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 04:01:17 (in UTC).
+2019-03-21, 06:46:15 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 06:46:15 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 04:16:15 (in UTC).
+2019-03-21, 06:46:18 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 06:46:18 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 04:16:18 (in UTC).
+2019-03-21, 06:56:31 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 06:56:31 <notification>: New lease assigned (User444, 123030). Expires: 2019-03-21 04:26:31 (in UTC). Used / Total leases: 2 / 5
+2019-03-21, 07:01:15 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 07:01:15 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 04:31:15 (in UTC).
+2019-03-21, 07:01:18 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 07:01:18 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 04:31:18 (in UTC).
+2019-03-21, 07:11:31 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 07:11:31 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-21 04:41:31 (in UTC).
+2019-03-21, 07:16:16 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 07:16:16 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 04:46:16 (in UTC).
+2019-03-21, 07:16:19 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 07:16:19 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 04:46:19 (in UTC).
+2019-03-21, 07:26:32 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 07:26:32 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-21 04:56:32 (in UTC).
+2019-03-21, 07:31:16 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 07:31:16 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 05:01:16 (in UTC).
+2019-03-21, 07:31:19 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 07:31:19 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 05:01:19 (in UTC).
+2019-03-21, 07:41:32 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 07:41:32 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-21 05:11:32 (in UTC).
+2019-03-21, 07:46:17 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 07:46:17 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 05:16:17 (in UTC).
+2019-03-21, 07:46:20 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 07:46:20 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 05:16:20 (in UTC).
+2019-03-21, 07:56:33 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 07:56:33 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-21 05:26:33 (in UTC).
+2019-03-21, 08:01:12 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 08:01:12 <notification>: Lease was released by client (Nastya, 628264). Used / Total leases: 1 / 5
+2019-03-21, 08:01:15 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 08:11:33 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 08:11:33 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-21 05:41:33 (in UTC).
+2019-03-21, 08:26:34 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 08:26:34 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-21 05:56:34 (in UTC).
+2019-03-21, 08:41:34 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 08:41:34 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-21 06:11:34 (in UTC).
+2019-03-21, 08:56:31 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 08:56:31 <notification>: Lease was released by client (User444, 123030). Used / Total leases: 0 / 5
+2019-03-21, 13:39:28 <notification>: New connection from IP: ::ffff:00.0.000.111
+2019-03-21, 13:39:28 <warning>: The sent data exceeds the maximum allowed data. Request has been rejected. (Data came from a computer at ::ffff:00.0.000.111)
+2019-03-21, 17:48:31 <notification>: New connection from IP: ::ffff:00.0.000.112
+2019-03-21, 17:48:31 <notification>: New lease assigned (User221, 123025). Expires: 2019-03-21 15:18:31 (in UTC). Used / Total leases: 1 / 5
+2019-03-21, 17:48:36 <notification>: New connection from IP: ::ffff:00.0.000.112
+2019-03-21, 17:48:36 <notification>: Lease was released by client (User221, 123025). Used / Total leases: 0 / 5
+2019-03-21, 17:48:53 <notification>: New connection from IP: ::ffff:00.0.000.112
+2019-03-21, 17:48:53 <notification>: New lease assigned (User221, 123025). Expires: 2019-03-21 15:18:53 (in UTC). Used / Total leases: 1 / 5
+2019-03-21, 17:49:45 <notification>: New connection from IP: ::ffff:00.0.000.112
+2019-03-21, 17:49:45 <notification>: Lease was released by client (User221, 123025). Used / Total leases: 0 / 5
+2019-03-21, 17:52:53 <notification>: New connection from IP: ::ffff:00.0.000.112
+2019-03-21, 17:52:53 <notification>: New lease assigned (User221, 123025). Expires: 2019-03-21 15:22:53 (in UTC). Used / Total leases: 1 / 5
+2019-03-21, 18:07:54 <notification>: New connection from IP: ::ffff:00.0.000.112
+2019-03-21, 18:07:54 <notification>: Extended existing lease (User221, 123025). New expiration time: 2019-03-21 15:37:54 (in UTC).
+2019-03-21, 18:22:54 <notification>: New connection from IP: ::ffff:00.0.000.112
+2019-03-21, 18:22:54 <notification>: Extended existing lease (User221, 123025). New expiration time: 2019-03-21 15:52:54 (in UTC).
+2019-03-21, 18:37:55 <notification>: New connection from IP: ::ffff:00.0.000.112
+2019-03-21, 18:37:55 <notification>: Extended existing lease (User221, 123025). New expiration time: 2019-03-21 16:07:55 (in UTC).
+2019-03-21, 18:47:28 <notification>: New connection from IP: ::ffff:00.0.000.112
+2019-03-21, 18:47:28 <notification>: Lease was released by client (User221, 123025). Used / Total leases: 0 / 5
+2019-03-21, 19:48:56 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 19:48:56 <notification>: New lease assigned (User444, 123030). Expires: 2019-03-21 17:18:56 (in UTC). Used / Total leases: 1 / 5
+2019-03-21, 19:49:11 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 19:49:11 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-21 17:19:11 (in UTC).
+2019-03-21, 20:02:23 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-21, 20:02:23 <notification>: New lease assigned (Kirill, 572433). Expires: 2019-03-21 17:32:23 (in UTC). Used / Total leases: 2 / 5
+2019-03-21, 20:03:02 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-21, 20:03:02 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-21 17:33:02 (in UTC).
+2019-03-21, 20:03:56 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 20:03:56 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-21 17:33:56 (in UTC).
+2019-03-21, 20:04:11 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 20:04:11 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-21 17:34:11 (in UTC).
+2019-03-21, 20:17:23 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-21, 20:17:23 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-21 17:47:23 (in UTC).
+2019-03-21, 20:18:02 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-21, 20:18:02 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-21 17:48:02 (in UTC).
+2019-03-21, 20:18:56 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 20:18:56 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-21 17:48:56 (in UTC).
+2019-03-21, 20:32:23 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-21, 20:32:23 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-21 18:02:23 (in UTC).
+2019-03-21, 20:33:03 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-21, 20:33:03 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-21 18:03:03 (in UTC).
+2019-03-21, 20:33:56 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 20:33:56 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-21 18:03:56 (in UTC).
+2019-03-21, 20:36:34 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-21, 20:36:34 <notification>: Lease was released by client (Kirill, 572433). Used / Total leases: 1 / 5
+2019-03-21, 20:36:36 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-21, 20:48:56 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 20:48:56 <notification>: Lease was released by client (User444, 123030). Used / Total leases: 0 / 5
+2019-03-21, 20:48:57 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 20:57:59 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-21, 20:57:59 <notification>: New lease assigned (Kirill, 572433). Expires: 2019-03-21 18:27:59 (in UTC). Used / Total leases: 1 / 5
+2019-03-21, 20:58:21 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-21, 20:58:21 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-21 18:28:21 (in UTC).
+2019-03-21, 21:00:13 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-21, 21:00:13 <notification>: Lease was released by client (Kirill, 572433). Used / Total leases: 0 / 5
+2019-03-21, 21:00:15 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-21, 21:42:16 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 21:42:16 <notification>: New lease assigned (Nastya, 628264). Expires: 2019-03-21 19:12:16 (in UTC). Used / Total leases: 1 / 5
+2019-03-21, 21:42:23 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 21:42:23 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 19:12:23 (in UTC).
+2019-03-21, 21:57:16 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 21:57:16 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 19:27:16 (in UTC).
+2019-03-21, 21:57:24 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 21:57:24 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 19:27:24 (in UTC).
+2019-03-21, 22:08:39 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 22:08:39 <notification>: New lease assigned (User444, 123030). Expires: 2019-03-21 19:38:39 (in UTC). Used / Total leases: 2 / 5
+2019-03-21, 22:08:45 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 22:08:45 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-21 19:38:45 (in UTC).
+2019-03-21, 22:12:16 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 22:12:16 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 19:42:16 (in UTC).
+2019-03-21, 22:12:24 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 22:12:24 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 19:42:24 (in UTC).
+2019-03-21, 22:12:49 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 22:12:49 <notification>: Lease was released by client (User444, 123030). Used / Total leases: 1 / 5
+2019-03-21, 22:12:51 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-21, 22:27:16 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 22:27:16 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 19:57:16 (in UTC).
+2019-03-21, 22:27:25 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 22:27:25 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 19:57:25 (in UTC).
+2019-03-21, 22:42:16 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 22:42:16 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 20:12:16 (in UTC).
+2019-03-21, 22:42:25 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 22:42:25 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 20:12:25 (in UTC).
+2019-03-21, 22:57:16 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 22:57:16 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 20:27:16 (in UTC).
+2019-03-21, 22:57:26 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 22:57:26 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 20:27:26 (in UTC).
+2019-03-21, 23:01:34 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-21, 23:01:34 <notification>: New lease assigned (Kirill, 572433). Expires: 2019-03-21 20:31:34 (in UTC). Used / Total leases: 2 / 5
+2019-03-21, 23:12:16 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 23:12:16 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 20:42:16 (in UTC).
+2019-03-21, 23:12:23 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 23:12:23 <notification>: Lease was released by client (Nastya, 628264). Used / Total leases: 1 / 5
+2019-03-21, 23:16:34 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-21, 23:16:34 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-21 20:46:34 (in UTC).
+2019-03-21, 23:27:16 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 23:27:16 <notification>: New lease assigned (Nastya, 628264). Expires: 2019-03-21 20:57:16 (in UTC). Used / Total leases: 2 / 5
+2019-03-21, 23:31:35 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-21, 23:31:35 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-21 21:01:35 (in UTC).
+2019-03-21, 23:37:55 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 23:37:55 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 21:07:55 (in UTC).
+2019-03-21, 23:42:16 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 23:42:16 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 21:12:16 (in UTC).
+2019-03-21, 23:46:35 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-21, 23:46:35 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-21 21:16:35 (in UTC).
+2019-03-21, 23:49:59 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 23:49:59 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 21:19:59 (in UTC).
+2019-03-21, 23:50:46 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-21, 23:50:46 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 21:20:46 (in UTC).
+2019-03-22, 00:01:34 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 00:01:34 <notification>: Lease was released by client (Kirill, 572433). Used / Total leases: 1 / 5
+2019-03-22, 00:01:38 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 00:01:38 <notification>: New lease assigned (Kirill, 572433). Expires: 2019-03-21 21:31:38 (in UTC). Used / Total leases: 2 / 5
+2019-03-22, 00:01:39 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 00:01:39 <notification>: Lease was released by client (Kirill, 572433). Used / Total leases: 1 / 5
+2019-03-22, 00:04:59 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 00:04:59 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 21:34:59 (in UTC).
+2019-03-22, 00:05:47 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 00:05:47 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 21:35:47 (in UTC).
+2019-03-22, 00:20:00 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 00:20:00 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 21:50:00 (in UTC).
+2019-03-22, 00:20:47 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 00:20:47 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 21:50:47 (in UTC).
+2019-03-22, 00:35:00 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 00:35:00 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 22:05:00 (in UTC).
+2019-03-22, 00:35:48 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 00:35:48 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 22:05:48 (in UTC).
+2019-03-22, 00:50:01 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 00:50:01 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 22:20:01 (in UTC).
+2019-03-22, 00:50:48 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 00:50:48 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 22:20:48 (in UTC).
+2019-03-22, 01:05:01 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 01:05:01 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 22:35:01 (in UTC).
+2019-03-22, 01:05:49 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 01:05:49 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 22:35:49 (in UTC).
+2019-03-22, 01:12:29 <notification>: New connection from IP: ::ffff:000.000.0.10
+2019-03-22, 01:12:31 <notification>: New connection from IP: ::ffff:000.000.0.10
+2019-03-22, 01:12:31 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 01:12:31 <notification>: New lease assigned (Kirill, 572433). Expires: 2019-03-21 22:42:31 (in UTC). Used / Total leases: 2 / 5
+2019-03-22, 01:12:31 <warning>: The sent data exceeds the maximum allowed data. Request has been rejected. (Data came from a computer at ::ffff:000.000.0.10)
+2019-03-22, 01:14:16 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 01:14:16 <notification>: Lease was released by client (Nastya, 628264). Used / Total leases: 1 / 5
+2019-03-22, 01:20:49 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 01:20:49 <notification>: New lease assigned (Nastya, 628264). Expires: 2019-03-21 22:50:49 (in UTC). Used / Total leases: 2 / 5
+2019-03-22, 01:27:32 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 01:27:32 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-21 22:57:32 (in UTC).
+2019-03-22, 01:35:50 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 01:35:50 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 23:05:50 (in UTC).
+2019-03-22, 01:38:02 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 01:38:02 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 23:08:02 (in UTC).
+2019-03-22, 01:42:32 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 01:42:32 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-21 23:12:32 (in UTC).
+2019-03-22, 01:50:47 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 01:50:47 <notification>: Lease was released by client (Nastya, 628264). Used / Total leases: 1 / 5
+2019-03-22, 01:53:02 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 01:53:02 <notification>: New lease assigned (Nastya, 628264). Expires: 2019-03-21 23:23:02 (in UTC). Used / Total leases: 2 / 5
+2019-03-22, 01:57:32 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 01:57:32 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-21 23:27:32 (in UTC).
+2019-03-22, 02:08:03 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 02:08:03 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 23:38:03 (in UTC).
+2019-03-22, 02:12:31 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 02:12:31 <notification>: Lease was released by client (Kirill, 572433). Used / Total leases: 1 / 5
+2019-03-22, 02:23:03 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 02:23:03 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-21 23:53:03 (in UTC).
+2019-03-22, 02:27:40 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 02:27:40 <notification>: New lease assigned (Kirill, 572433). Expires: 2019-03-21 23:57:40 (in UTC). Used / Total leases: 2 / 5
+2019-03-22, 02:28:29 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 02:28:29 <notification>: Lease was released by client (Kirill, 572433). Used / Total leases: 1 / 5
+2019-03-22, 02:38:04 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 02:38:04 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 00:08:04 (in UTC).
+2019-03-22, 02:48:47 <notification>: New connection from IP: ::ffff:000.000.0.19
+2019-03-22, 02:48:47 <notification>: New lease assigned (User001, 453931). Expires: 2019-03-22 00:18:47 (in UTC). Used / Total leases: 2 / 5
+2019-03-22, 02:48:56 <notification>: New connection from IP: ::ffff:000.000.0.19
+2019-03-22, 02:48:56 <notification>: Lease was released by client (User001, 453931). Used / Total leases: 1 / 5
+2019-03-22, 02:48:56 <notification>: New connection from IP: ::ffff:000.000.0.19
+2019-03-22, 02:48:56 <notification>: New lease assigned (User001, 453931). Expires: 2019-03-22 00:18:56 (in UTC). Used / Total leases: 2 / 5
+2019-03-22, 02:51:12 <notification>: New connection from IP: ::ffff:000.000.0.19
+2019-03-22, 02:51:12 <notification>: Lease was released by client (User001, 453931). Used / Total leases: 1 / 5
+2019-03-22, 02:51:16 <notification>: New connection from IP: ::ffff:000.000.0.19
+2019-03-22, 02:51:16 <notification>: New lease assigned (User001, 453931). Expires: 2019-03-22 00:21:16 (in UTC). Used / Total leases: 2 / 5
+2019-03-22, 02:51:31 <notification>: New connection from IP: ::ffff:000.000.0.19
+2019-03-22, 02:51:31 <notification>: Lease was released by client (User001, 453931). Used / Total leases: 1 / 5
+2019-03-22, 02:53:04 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 02:53:04 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 00:23:04 (in UTC).
+2019-03-22, 03:02:00 <notification>: New connection from IP: ::ffff:000.000.0.19
+2019-03-22, 03:02:00 <notification>: New lease assigned (User001, 453931). Expires: 2019-03-22 00:32:00 (in UTC). Used / Total leases: 2 / 5
+2019-03-22, 03:04:44 <notification>: New connection from IP: ::ffff:000.000.0.19
+2019-03-22, 03:04:44 <notification>: Lease was released by client (User001, 453931). Used / Total leases: 1 / 5
+2019-03-22, 03:08:05 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 03:08:05 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 00:38:05 (in UTC).
+2019-03-22, 03:20:03 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 03:20:03 <notification>: New lease assigned (Kirill, 572433). Expires: 2019-03-22 00:50:03 (in UTC). Used / Total leases: 2 / 5
+2019-03-22, 03:20:51 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 03:20:51 <notification>: Lease was released by client (Kirill, 572433). Used / Total leases: 1 / 5
+2019-03-22, 03:23:05 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 03:23:05 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 00:53:05 (in UTC).
+2019-03-22, 03:25:49 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 03:25:49 <notification>: New lease assigned (Kirill, 572433). Expires: 2019-03-22 00:55:49 (in UTC). Used / Total leases: 2 / 5
+2019-03-22, 03:25:58 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 03:25:58 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-22 00:55:58 (in UTC).
+2019-03-22, 03:38:06 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 03:38:06 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 01:08:06 (in UTC).
+2019-03-22, 03:40:49 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 03:40:49 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-22 01:10:49 (in UTC).
+2019-03-22, 03:40:58 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 03:40:58 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-22 01:10:58 (in UTC).
+2019-03-22, 03:46:45 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 03:46:45 <notification>: Lease was released by client (Kirill, 572433). Used / Total leases: 1 / 5
+2019-03-22, 03:48:37 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 03:48:37 <notification>: New lease assigned (Kirill, 572433). Expires: 2019-03-22 01:18:37 (in UTC). Used / Total leases: 2 / 5
+2019-03-22, 03:53:06 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 03:53:06 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 01:23:06 (in UTC).
+2019-03-22, 03:55:49 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 03:55:49 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-22 01:25:49 (in UTC).
+2019-03-22, 04:03:38 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 04:03:38 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-22 01:33:38 (in UTC).
+2019-03-22, 04:08:07 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 04:08:07 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 01:38:07 (in UTC).
+2019-03-22, 04:10:49 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 04:10:49 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-22 01:40:49 (in UTC).
+2019-03-22, 04:18:38 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 04:18:38 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-22 01:48:38 (in UTC).
+2019-03-22, 04:23:07 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 04:23:07 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 01:53:07 (in UTC).
+2019-03-22, 04:25:49 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 04:25:49 <notification>: Lease was released by client (Kirill, 572433). Used / Total leases: 1 / 5
+2019-03-22, 04:25:50 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 04:33:39 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 04:33:39 <notification>: New lease assigned (Kirill, 572433). Expires: 2019-03-22 02:03:39 (in UTC). Used / Total leases: 2 / 5
+2019-03-22, 04:38:08 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 04:38:08 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 02:08:08 (in UTC).
+2019-03-22, 04:48:37 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 04:48:37 <notification>: Lease was released by client (Kirill, 572433). Used / Total leases: 1 / 5
+2019-03-22, 04:53:08 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 04:53:08 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 02:23:08 (in UTC).
+2019-03-22, 05:08:02 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 05:08:02 <notification>: Lease was released by client (Nastya, 628264). Used / Total leases: 0 / 5
+2019-03-22, 12:42:05 <notification>: New connection from IP: ::ffff:185.211.245.200
+2019-03-22, 12:42:05 <warning>: The sent data exceeds the maximum allowed data. Request has been rejected. (Data came from a computer at ::ffff:185.211.245.200)
+2019-03-22, 19:52:19 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 19:52:20 <notification>: New lease assigned (Kirill, 572433). Expires: 2019-03-22 17:22:20 (in UTC). Used / Total leases: 1 / 5
+2019-03-22, 19:53:14 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 19:53:14 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-22 17:23:14 (in UTC).
+2019-03-22, 19:55:21 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 19:55:21 <notification>: Lease was released by client (Kirill, 572433). Used / Total leases: 0 / 5
+2019-03-22, 19:55:24 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 20:00:02 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 20:00:02 <notification>: New lease assigned (Kirill, 572433). Expires: 2019-03-22 17:30:02 (in UTC). Used / Total leases: 1 / 5
+2019-03-22, 20:00:32 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 20:00:32 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-22 17:30:32 (in UTC).
+2019-03-22, 20:15:02 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 20:15:02 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-22 17:45:02 (in UTC).
+2019-03-22, 20:15:32 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 20:15:32 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-22 17:45:32 (in UTC).
+2019-03-22, 20:18:21 <notification>: New connection from IP: ::ffff:141.98.80.29
+2019-03-22, 20:18:21 <warning>: The sent data exceeds the maximum allowed data. Request has been rejected. (Data came from a computer at ::ffff:141.98.80.29)
+2019-03-22, 20:25:38 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 20:25:38 <notification>: Lease was released by client (Kirill, 572433). Used / Total leases: 0 / 5
+2019-03-22, 20:25:40 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 20:44:56 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 20:44:56 <notification>: New lease assigned (Kirill, 572433). Expires: 2019-03-22 18:14:56 (in UTC). Used / Total leases: 1 / 5
+2019-03-22, 20:59:57 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 20:59:57 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-22 18:29:57 (in UTC).
+2019-03-22, 21:02:37 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 21:02:37 <notification>: New lease assigned (Nastya, 628264). Expires: 2019-03-22 18:32:37 (in UTC). Used / Total leases: 2 / 5
+2019-03-22, 21:14:57 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 21:14:57 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-22 18:44:57 (in UTC).
+2019-03-22, 21:17:37 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 21:17:37 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 18:47:37 (in UTC).
+2019-03-22, 21:18:00 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 21:18:00 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-22 18:48:00 (in UTC).
+2019-03-22, 21:29:57 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 21:29:57 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-22 18:59:57 (in UTC).
+2019-03-22, 21:30:57 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 21:30:57 <notification>: Lease was released by client (Kirill, 572433). Used / Total leases: 1 / 5
+2019-03-22, 21:32:37 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 21:32:37 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 19:02:37 (in UTC).
+2019-03-22, 21:33:01 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 21:33:01 <notification>: New lease assigned (Kirill, 572433). Expires: 2019-03-22 19:03:01 (in UTC). Used / Total leases: 2 / 5
+2019-03-22, 21:33:02 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 21:33:02 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 19:03:02 (in UTC).
+2019-03-22, 21:43:25 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 21:43:25 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 19:13:25 (in UTC).
+2019-03-22, 21:48:01 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 21:48:01 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-22 19:18:01 (in UTC).
+2019-03-22, 21:48:03 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 21:48:03 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 19:18:03 (in UTC).
+2019-03-22, 21:58:25 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 21:58:25 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 19:28:25 (in UTC).
+2019-03-22, 22:03:02 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 22:03:02 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-22 19:33:02 (in UTC).
+2019-03-22, 22:03:03 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 22:03:03 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 19:33:03 (in UTC).
+2019-03-22, 22:13:25 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 22:13:25 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 19:43:25 (in UTC).
+2019-03-22, 22:18:00 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 22:18:00 <notification>: Lease was released by client (Kirill, 572433). Used / Total leases: 1 / 5
+2019-03-22, 22:18:04 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 22:18:04 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 19:48:04 (in UTC).
+2019-03-22, 22:18:05 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 22:18:05 <notification>: New lease assigned (Kirill, 572433). Expires: 2019-03-22 19:48:05 (in UTC). Used / Total leases: 2 / 5
+2019-03-22, 22:18:10 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 22:18:10 <notification>: Lease was released by client (Kirill, 572433). Used / Total leases: 1 / 5
+2019-03-22, 22:22:34 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 22:22:34 <notification>: New lease assigned (Kirill, 572433). Expires: 2019-03-22 19:52:34 (in UTC). Used / Total leases: 2 / 5
+2019-03-22, 22:25:06 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-22, 22:25:06 <notification>: Lease was released by client (Kirill, 572433). Used / Total leases: 1 / 5
+2019-03-22, 22:28:25 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 22:28:25 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 19:58:25 (in UTC).
+2019-03-22, 22:33:04 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 22:33:04 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 20:03:04 (in UTC).
+2019-03-22, 22:43:25 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 22:43:25 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 20:13:25 (in UTC).
+2019-03-22, 22:48:05 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 22:48:05 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 20:18:05 (in UTC).
+2019-03-22, 22:58:25 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 22:58:25 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 20:28:25 (in UTC).
+2019-03-22, 23:03:02 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 23:03:02 <notification>: Lease was released by client (Nastya, 628264). Used / Total leases: 0 / 5
+2019-03-22, 23:09:56 <notification>: New connection from IP: ::ffff:62.108.37.18
+2019-03-22, 23:09:57 <notification>: New connection from IP: ::ffff:62.108.37.18
+2019-03-22, 23:09:57 <warning>: The sent data exceeds the maximum allowed data. Request has been rejected. (Data came from a computer at ::ffff:62.108.37.18)
+2019-03-22, 23:10:00 <notification>: New connection from IP: ::ffff:62.108.37.18
+2019-03-22, 23:10:01 <warning>: The sent data exceeds the maximum allowed data. Request has been rejected. (Data came from a computer at ::ffff:62.108.37.18)
+2019-03-22, 23:13:25 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 23:13:25 <notification>: New lease assigned (Nastya, 628264). Expires: 2019-03-22 20:43:25 (in UTC). Used / Total leases: 1 / 5
+2019-03-22, 23:13:26 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 23:13:26 <notification>: Lease was released by client (Nastya, 628264). Used / Total leases: 0 / 5
+2019-03-22, 23:44:25 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 23:44:25 <notification>: New lease assigned (Nastya, 628264). Expires: 2019-03-22 21:14:25 (in UTC). Used / Total leases: 1 / 5
+2019-03-22, 23:44:27 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 23:44:27 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 21:14:27 (in UTC).
+2019-03-22, 23:59:26 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 23:59:26 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 21:29:26 (in UTC).
+2019-03-22, 23:59:28 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-22, 23:59:28 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 21:29:28 (in UTC).
+2019-03-23, 00:14:26 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 00:14:26 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 21:44:26 (in UTC).
+2019-03-23, 00:14:28 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 00:14:28 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 21:44:28 (in UTC).
+2019-03-23, 00:26:56 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-23, 00:26:56 <notification>: New lease assigned (Kirill, 572433). Expires: 2019-03-22 21:56:56 (in UTC). Used / Total leases: 2 / 5
+2019-03-23, 00:29:27 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 00:29:27 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 21:59:27 (in UTC).
+2019-03-23, 00:29:29 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 00:29:29 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 21:59:29 (in UTC).
+2019-03-23, 00:41:57 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-23, 00:41:57 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-22 22:11:57 (in UTC).
+2019-03-23, 00:44:27 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 00:44:27 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 22:14:27 (in UTC).
+2019-03-23, 00:44:29 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 00:44:29 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 22:14:29 (in UTC).
+2019-03-23, 00:56:57 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-23, 00:56:57 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-22 22:26:57 (in UTC).
+2019-03-23, 00:59:28 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 00:59:28 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 22:29:28 (in UTC).
+2019-03-23, 00:59:30 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 00:59:30 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 22:29:30 (in UTC).
+2019-03-23, 01:11:58 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-23, 01:11:58 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-22 22:41:58 (in UTC).
+2019-03-23, 01:14:28 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 01:14:28 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 22:44:28 (in UTC).
+2019-03-23, 01:14:30 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 01:14:30 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 22:44:30 (in UTC).
+2019-03-23, 01:15:25 <notification>: New connection from IP: ::ffff:141.98.80.29
+2019-03-23, 01:15:25 <warning>: The sent data exceeds the maximum allowed data. Request has been rejected. (Data came from a computer at ::ffff:141.98.80.29)
+2019-03-23, 01:26:58 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-23, 01:26:58 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-22 22:56:58 (in UTC).
+2019-03-23, 01:29:29 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 01:29:29 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 22:59:29 (in UTC).
+2019-03-23, 01:29:31 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 01:29:31 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 22:59:31 (in UTC).
+2019-03-23, 01:41:59 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-23, 01:41:59 <notification>: Extended existing lease (Kirill, 572433). New expiration time: 2019-03-22 23:11:59 (in UTC).
+2019-03-23, 01:44:29 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 01:44:29 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 23:14:29 (in UTC).
+2019-03-23, 01:44:31 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 01:44:31 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 23:14:31 (in UTC).
+2019-03-23, 01:44:54 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-23, 01:44:54 <notification>: Lease was released by client (Kirill, 572433). Used / Total leases: 1 / 5
+2019-03-23, 01:46:33 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-23, 01:46:33 <notification>: New lease assigned (Kirill, 572433). Expires: 2019-03-22 23:16:33 (in UTC). Used / Total leases: 2 / 5
+2019-03-23, 01:46:53 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-23, 01:46:53 <notification>: Lease was released by client (Kirill, 572433). Used / Total leases: 1 / 5
+2019-03-23, 01:59:30 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 01:59:30 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 23:29:30 (in UTC).
+2019-03-23, 01:59:32 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 01:59:32 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 23:29:32 (in UTC).
+2019-03-23, 02:14:30 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 02:14:30 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 23:44:30 (in UTC).
+2019-03-23, 02:14:32 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 02:14:32 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 23:44:32 (in UTC).
+2019-03-23, 02:29:31 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 02:29:31 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 23:59:31 (in UTC).
+2019-03-23, 02:29:33 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 02:29:33 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-22 23:59:33 (in UTC).
+2019-03-23, 02:44:25 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 02:44:25 <notification>: Lease was released by client (Nastya, 628264). Used / Total leases: 0 / 5
+2019-03-23, 02:44:27 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 02:44:31 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 02:44:31 <notification>: New lease assigned (Nastya, 628264). Expires: 2019-03-23 00:14:31 (in UTC). Used / Total leases: 1 / 5
+2019-03-23, 02:44:36 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 02:44:36 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-23 00:14:36 (in UTC).
+2019-03-23, 02:59:32 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 02:59:32 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-23 00:29:32 (in UTC).
+2019-03-23, 02:59:36 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 02:59:36 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-23 00:29:36 (in UTC).
+2019-03-23, 03:14:32 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 03:14:32 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-23 00:44:32 (in UTC).
+2019-03-23, 03:14:37 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 03:14:37 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-23 00:44:37 (in UTC).
+2019-03-23, 03:29:33 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 03:29:33 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-23 00:59:33 (in UTC).
+2019-03-23, 03:29:37 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 03:29:37 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-23 00:59:37 (in UTC).
+2019-03-23, 03:30:51 <notification>: New connection from IP: ::ffff:000.000.4.44
+2019-03-23, 03:30:51 <notification>: New lease assigned (User553, 409972). Expires: 2019-03-23 01:00:51 (in UTC). Used / Total leases: 2 / 5
+2019-03-23, 03:31:48 <notification>: New connection from IP: ::ffff:000.000.4.44
+2019-03-23, 03:31:48 <notification>: Lease was released by client (User553, 409972). Used / Total leases: 1 / 5
+2019-03-23, 03:44:33 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 03:44:33 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-23 01:14:33 (in UTC).
+2019-03-23, 03:44:38 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 03:44:38 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-23 01:14:38 (in UTC).
+2019-03-23, 03:59:34 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 03:59:34 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-23 01:29:34 (in UTC).
+2019-03-23, 03:59:38 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 03:59:38 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-23 01:29:38 (in UTC).
+2019-03-23, 04:14:34 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 04:14:34 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-23 01:44:34 (in UTC).
+2019-03-23, 04:14:39 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 04:14:39 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-23 01:44:39 (in UTC).
+2019-03-23, 04:29:35 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 04:29:35 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-23 01:59:35 (in UTC).
+2019-03-23, 04:29:39 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 04:29:39 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-23 01:59:39 (in UTC).
+2019-03-23, 04:44:35 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 04:44:35 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-23 02:14:35 (in UTC).
+2019-03-23, 04:44:40 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 04:44:40 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-23 02:14:40 (in UTC).
+2019-03-23, 04:59:36 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 04:59:36 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-23 02:29:36 (in UTC).
+2019-03-23, 04:59:40 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 04:59:40 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-23 02:29:40 (in UTC).
+2019-03-23, 05:14:31 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 05:14:31 <notification>: Lease was released by client (Nastya, 628264). Used / Total leases: 0 / 5
+2019-03-23, 05:14:36 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 05:14:41 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 05:14:41 <notification>: New lease assigned (Nastya, 628264). Expires: 2019-03-23 02:44:41 (in UTC). Used / Total leases: 1 / 5
+2019-03-23, 05:14:42 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 05:14:42 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-23 02:44:42 (in UTC).
+2019-03-23, 05:28:49 <notification>: New connection from IP: ::ffff:000.000.0.19
+2019-03-23, 05:28:49 <notification>: New lease assigned (User001, 453931). Expires: 2019-03-23 02:58:49 (in UTC). Used / Total leases: 2 / 5
+2019-03-23, 05:29:42 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 05:29:42 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-23 02:59:42 (in UTC).
+2019-03-23, 05:29:42 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 05:29:42 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-23 02:59:42 (in UTC).
+2019-03-23, 05:32:09 <notification>: New connection from IP: ::ffff:000.000.0.19
+2019-03-23, 05:32:09 <notification>: Lease was released by client (User001, 453931). Used / Total leases: 1 / 5
+2019-03-23, 05:44:41 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 05:44:41 <notification>: Lease was released by client (Nastya, 628264). Used / Total leases: 0 / 5
+2019-03-23, 05:44:42 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 05:44:42 <notification>: New lease assigned (Nastya, 628264). Expires: 2019-03-23 03:14:42 (in UTC). Used / Total leases: 1 / 5
+2019-03-23, 05:59:42 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 05:59:42 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-23 03:29:42 (in UTC).
+2019-03-23, 06:14:42 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 06:14:42 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-23 03:44:42 (in UTC).
+2019-03-23, 06:14:43 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-23, 06:14:43 <notification>: Lease was released by client (Nastya, 628264). Used / Total leases: 0 / 5
+2019-03-23, 08:14:08 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-23, 08:14:08 <notification>: New lease assigned (Kirill, 572433). Expires: 2019-03-23 05:44:08 (in UTC). Used / Total leases: 1 / 5
+2019-03-23, 08:15:23 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-23, 08:15:23 <notification>: Lease was released by client (Kirill, 572433). Used / Total leases: 0 / 5
+2019-03-23, 09:02:38 <notification>: New connection from IP: ::ffff:000.000.1.47
+2019-03-23, 09:02:38 <notification>: New lease assigned (User1115, 243866). Expires: 2019-03-23 06:32:38 (in UTC). Used / Total leases: 1 / 5
+2019-03-23, 09:09:01 <notification>: New connection from IP: ::ffff:000.000.1.47
+2019-03-23, 09:09:01 <notification>: Lease was released by client (User1115, 243866). Used / Total leases: 0 / 5
+2019-03-24, 17:29:54 <notification>: New connection from IP: ::ffff:185.209.0.42
+2019-03-24, 17:29:54 <warning>: The sent data exceeds the maximum allowed data. Request has been rejected. (Data came from a computer at ::ffff:185.209.0.42)
+2019-03-25, 20:06:48 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-25, 20:06:48 <notification>: New lease assigned (Kirill, 572433). Expires: 2019-03-25 17:36:48 (in UTC). Used / Total leases: 1 / 5
+2019-03-25, 20:08:22 <notification>: New connection from IP: ::ffff:000.000.0.17
+2019-03-25, 20:08:22 <notification>: Lease was released by client (Kirill, 572433). Used / Total leases: 0 / 5
+2019-03-25, 20:53:05 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-25, 20:53:05 <notification>: New lease assigned (Nastya, 628264). Expires: 2019-03-25 18:23:05 (in UTC). Used / Total leases: 1 / 5
+2019-03-25, 20:55:13 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-25, 20:55:13 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 18:25:13 (in UTC).
+2019-03-25, 21:08:06 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-25, 21:08:06 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 18:38:06 (in UTC).
+2019-03-25, 21:10:13 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-25, 21:10:13 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 18:40:13 (in UTC).
+2019-03-25, 21:23:06 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-25, 21:23:06 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 18:53:06 (in UTC).
+2019-03-25, 21:25:13 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-25, 21:25:13 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 18:55:13 (in UTC).
+2019-03-25, 21:38:07 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-25, 21:38:07 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 19:08:07 (in UTC).
+2019-03-25, 21:40:13 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-25, 21:40:13 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 19:10:13 (in UTC).
+2019-03-25, 21:53:07 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-25, 21:53:07 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 19:23:07 (in UTC).
+2019-03-25, 21:55:13 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-25, 21:55:13 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 19:25:13 (in UTC).
+2019-03-25, 22:08:08 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-25, 22:08:08 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 19:38:08 (in UTC).
+2019-03-25, 22:10:13 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-25, 22:10:13 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 19:40:13 (in UTC).
+2019-03-25, 22:23:05 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-25, 22:23:05 <notification>: Lease was released by client (Nastya, 628264). Used / Total leases: 0 / 5
+2019-03-25, 22:25:13 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-25, 22:25:13 <notification>: New lease assigned (Nastya, 628264). Expires: 2019-03-25 19:55:13 (in UTC). Used / Total leases: 1 / 5
+2019-03-25, 22:40:13 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-25, 22:40:13 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 20:10:13 (in UTC).
+2019-03-25, 22:55:13 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-25, 22:55:13 <notification>: Lease was released by client (Nastya, 628264). Used / Total leases: 0 / 5
+2019-03-25, 22:55:14 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-25, 23:02:43 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-25, 23:02:43 <notification>: New lease assigned (Nastya, 628264). Expires: 2019-03-25 20:32:43 (in UTC). Used / Total leases: 1 / 5
+2019-03-25, 23:03:54 <notification>: New connection from IP: ::ffff:141.98.80.29
+2019-03-25, 23:03:54 <warning>: The sent data exceeds the maximum allowed data. Request has been rejected. (Data came from a computer at ::ffff:141.98.80.29)
+2019-03-25, 23:17:43 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-25, 23:17:43 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 20:47:43 (in UTC).
+2019-03-25, 23:32:43 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-25, 23:32:43 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 21:02:43 (in UTC).
+2019-03-25, 23:38:58 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-25, 23:38:58 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 21:08:58 (in UTC).
+2019-03-25, 23:39:00 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-25, 23:39:00 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 21:09:00 (in UTC).
+2019-03-25, 23:47:43 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-25, 23:47:43 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 21:17:43 (in UTC).
+2019-03-25, 23:50:00 <notification>: New connection from IP: ::ffff:000.000.1.47
+2019-03-25, 23:50:00 <notification>: New lease assigned (User1115, 243866). Expires: 2019-03-25 21:20:00 (in UTC). Used / Total leases: 2 / 5
+2019-03-25, 23:53:59 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-25, 23:53:59 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 21:23:59 (in UTC).
+2019-03-25, 23:54:01 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-25, 23:54:01 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 21:24:01 (in UTC).
+2019-03-26, 00:02:43 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 00:02:43 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 21:32:43 (in UTC).
+2019-03-26, 00:02:52 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 00:02:52 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 21:32:52 (in UTC).
+2019-03-26, 00:05:00 <notification>: New connection from IP: ::ffff:000.000.1.47
+2019-03-26, 00:05:00 <notification>: Extended existing lease (User1115, 243866). New expiration time: 2019-03-25 21:35:00 (in UTC).
+2019-03-26, 00:07:45 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 00:07:45 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 21:37:45 (in UTC).
+2019-03-26, 00:08:04 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 00:08:04 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 21:38:04 (in UTC).
+2019-03-26, 00:17:33 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-26, 00:17:33 <notification>: New lease assigned (User444, 123030). Expires: 2019-03-25 21:47:33 (in UTC). Used / Total leases: 3 / 5
+2019-03-26, 00:20:00 <notification>: New connection from IP: ::ffff:000.000.1.47
+2019-03-26, 00:20:00 <notification>: Extended existing lease (User1115, 243866). New expiration time: 2019-03-25 21:50:00 (in UTC).
+2019-03-26, 00:22:46 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 00:22:46 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 21:52:46 (in UTC).
+2019-03-26, 00:23:05 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 00:23:05 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 21:53:05 (in UTC).
+2019-03-26, 00:32:34 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-26, 00:32:34 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-25 22:02:34 (in UTC).
+2019-03-26, 00:35:00 <notification>: New connection from IP: ::ffff:000.000.1.47
+2019-03-26, 00:35:00 <notification>: Extended existing lease (User1115, 243866). New expiration time: 2019-03-25 22:05:00 (in UTC).
+2019-03-26, 00:37:46 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 00:37:46 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 22:07:46 (in UTC).
+2019-03-26, 00:38:05 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 00:38:05 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 22:08:05 (in UTC).
+2019-03-26, 00:46:22 <notification>: New connection from IP: ::ffff:000.000.1.47
+2019-03-26, 00:46:22 <notification>: Lease was released by client (User1115, 243866). Used / Total leases: 2 / 5
+2019-03-26, 00:47:34 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-26, 00:47:34 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-25 22:17:34 (in UTC).
+2019-03-26, 00:52:47 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 00:52:47 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 22:22:47 (in UTC).
+2019-03-26, 00:53:06 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 00:53:06 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 22:23:06 (in UTC).
+2019-03-26, 01:02:35 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-26, 01:02:35 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-25 22:32:35 (in UTC).
+2019-03-26, 01:07:47 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 01:07:47 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 22:37:47 (in UTC).
+2019-03-26, 01:08:06 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 01:08:06 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 22:38:06 (in UTC).
+2019-03-26, 01:17:34 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-26, 01:17:34 <notification>: Lease was released by client (User444, 123030). Used / Total leases: 1 / 5
+2019-03-26, 01:17:38 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-26, 01:17:38 <notification>: New lease assigned (User444, 123030). Expires: 2019-03-25 22:47:38 (in UTC). Used / Total leases: 2 / 5
+2019-03-26, 01:22:48 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 01:22:48 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 22:52:48 (in UTC).
+2019-03-26, 01:23:07 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 01:23:07 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 22:53:07 (in UTC).
+2019-03-26, 01:32:38 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-26, 01:32:38 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-25 23:02:38 (in UTC).
+2019-03-26, 01:37:48 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 01:37:48 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 23:07:48 (in UTC).
+2019-03-26, 01:38:07 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 01:38:07 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 23:08:07 (in UTC).
+2019-03-26, 01:47:39 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-26, 01:47:39 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-25 23:17:39 (in UTC).
+2019-03-26, 01:52:49 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 01:52:49 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 23:22:49 (in UTC).
+2019-03-26, 01:53:08 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 01:53:08 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-25 23:23:08 (in UTC).
+2019-03-26, 02:02:39 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-26, 02:02:39 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-25 23:32:39 (in UTC).
+2019-03-26, 02:07:45 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 02:07:45 <notification>: Lease was released by client (Nastya, 628264). Used / Total leases: 1 / 5
+2019-03-26, 02:07:49 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 02:07:49 <notification>: New lease assigned (Nastya, 628264). Expires: 2019-03-25 23:37:49 (in UTC). Used / Total leases: 2 / 5
+2019-03-26, 02:08:04 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 02:08:04 <notification>: Lease was released by client (Nastya, 628264). Used / Total leases: 1 / 5
+2019-03-26, 02:17:40 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-26, 02:17:40 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-25 23:47:40 (in UTC).
+2019-03-26, 02:22:49 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 02:22:49 <notification>: New lease assigned (Nastya, 628264). Expires: 2019-03-25 23:52:49 (in UTC). Used / Total leases: 2 / 5
+2019-03-26, 02:32:40 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-26, 02:32:40 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-26 00:02:40 (in UTC).
+2019-03-26, 02:37:49 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 02:37:49 <notification>: Lease was released by client (Nastya, 628264). Used / Total leases: 1 / 5
+2019-03-26, 02:47:40 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-26, 02:47:40 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-26 00:17:40 (in UTC).
+2019-03-26, 03:02:40 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-26, 03:02:40 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-26 00:32:40 (in UTC).
+2019-03-26, 03:17:40 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-26, 03:17:40 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-26 00:47:40 (in UTC).
+2019-03-26, 03:32:41 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-26, 03:32:41 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-26 01:02:41 (in UTC).
+2019-03-26, 03:47:38 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-26, 03:47:38 <notification>: Lease was released by client (User444, 123030). Used / Total leases: 0 / 5
+2019-03-26, 03:47:41 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-26, 03:47:41 <notification>: New lease assigned (User444, 123030). Expires: 2019-03-26 01:17:41 (in UTC). Used / Total leases: 1 / 5
+2019-03-26, 03:55:47 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 03:55:47 <notification>: New lease assigned (Nastya, 628264). Expires: 2019-03-26 01:25:47 (in UTC). Used / Total leases: 2 / 5
+2019-03-26, 03:56:52 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 03:56:52 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-26 01:26:52 (in UTC).
+2019-03-26, 04:02:42 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-26, 04:02:42 <notification>: Extended existing lease (User444, 123030). New expiration time: 2019-03-26 01:32:42 (in UTC).
+2019-03-26, 04:10:48 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 04:10:48 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-26 01:40:48 (in UTC).
+2019-03-26, 04:11:52 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 04:11:52 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-26 01:41:52 (in UTC).
+2019-03-26, 04:17:42 <notification>: New connection from IP: ::ffff:000.000.0.18
+2019-03-26, 04:17:42 <notification>: Lease was released by client (User444, 123030). Used / Total leases: 1 / 5
+2019-03-26, 04:25:48 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 04:25:48 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-26 01:55:48 (in UTC).
+2019-03-26, 04:26:53 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 04:26:53 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-26 01:56:53 (in UTC).
+2019-03-26, 04:40:49 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 04:40:49 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-26 02:10:49 (in UTC).
+2019-03-26, 04:41:53 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 04:41:53 <notification>: Extended existing lease (Nastya, 628264). New expiration time: 2019-03-26 02:11:53 (in UTC).
+2019-03-26, 04:55:47 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 04:55:47 <notification>: Lease was released by client (Nastya, 628264). Used / Total leases: 0 / 5
+2019-03-26, 04:56:52 <notification>: New connection from IP: ::ffff:000.000.0.15
+2019-03-26, 07:00:52 <notification>: New connection from IP: ::ffff:000.000.0.19
+2019-03-26, 07:00:52 <notification>: New lease assigned (User001, 453931). Expires: 2019-03-26 04:30:52 (in UTC). Used / Total leases: 1 / 5
+2019-03-26, 07:15:52 <notification>: New connection from IP: ::ffff:000.000.0.19
+2019-03-26, 07:15:52 <notification>: Extended existing lease (User001, 453931). New expiration time: 2019-03-26 04:45:52 (in UTC).
+2019-03-26, 07:30:52 <notification>: New connection from IP: ::ffff:000.000.0.19
+2019-03-26, 07:30:52 <notification>: Extended existing lease (User001, 453931). New expiration time: 2019-03-26 05:00:52 (in UTC).
+2019-03-26, 07:45:52 <notification>: New connection from IP: ::ffff:000.000.0.19
+2019-03-26, 07:45:52 <notification>: Extended existing lease (User001, 453931). New expiration time: 2019-03-26 05:15:52 (in UTC).
+2019-03-26, 08:00:52 <notification>: New connection from IP: ::ffff:000.000.0.19
+2019-03-26, 08:00:52 <notification>: Lease was released by client (User001, 453931). Used / Total leases: 0 / 5
+2019-03-26, 08:35:08 <notification>: New connection from IP: ::ffff:000.000.1.47
+2019-03-26, 08:35:08 <notification>: New lease assigned (User1115, 243866). Expires: 2019-03-26 06:05:08 (in UTC). Used / Total leases: 1 / 5
+2019-03-26, 08:50:09 <notification>: New connection from IP: ::ffff:000.000.1.47
+2019-03-26, 08:50:09 <notification>: Extended existing lease (User1115, 243866). New expiration time: 2019-03-26 06:20:09 (in UTC).
+2019-03-26, 09:05:09 <notification>: New connection from IP: ::ffff:000.000.1.47
+2019-03-26, 09:05:09 <notification>: Extended existing lease (User1115, 243866). New expiration time: 2019-03-26 06:35:09 (in UTC).
+2019-03-26, 09:20:10 <notification>: New connection from IP: ::ffff:000.000.1.47
+2019-03-26, 09:20:10 <notification>: Extended existing lease (User1115, 243866). New expiration time: 2019-03-26 06:50:10 (in UTC).
+2019-03-26, 09:35:08 <notification>: New connection from IP: ::ffff:000.000.1.47
+2019-03-26, 09:35:08 <notification>: Lease was released by client (User1115, 243866). Used / Total leases: 0 / 5
+2019-03-26, 10:05:26 <notification>: New connection from IP: ::ffff:000.000.1.47
+2019-03-26, 10:05:26 <notification>: New lease assigned (User1115, 243866). Expires: 2019-03-26 07:35:26 (in UTC). Used / Total leases: 1 / 5
+2019-03-26, 10:07:01 <notification>: New connection from IP: ::ffff:000.000.1.47
+2019-03-26, 10:07:01 <notification>: Lease was released by client (User1115, 243866). Used / Total leases: 0 / 5
+2019-03-26, 10:10:49 <notification>: New connection from IP: ::ffff:000.000.1.47
+2019-03-26, 10:10:49 <notification>: New lease assigned (User1115, 243866). Expires: 2019-03-26 07:40:49 (in UTC). Used / Total leases: 1 / 5
+2019-03-26, 10:18:23 <notification>: New connection from IP: ::ffff:000.000.1.47
+2019-03-26, 10:18:23 <notification>: Lease was released by client (User1115, 243866). Used / Total leases: 0 / 5
+[root@floating-server-7002 ViCueFloatServerPremium]#
