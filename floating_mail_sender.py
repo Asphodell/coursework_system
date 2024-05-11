@@ -13,7 +13,7 @@ class Sender:
     Contains a method for sending a message
     """
 
-    def __init__(self, subject, filename):
+    def __init__(self, subject: str, filename: str):
         self.subject = subject
         self.filename = filename
 

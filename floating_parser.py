@@ -11,10 +11,10 @@ class LogParser:
     This module converts a text file into a dataframe
     """
 
-    def __init__(self, path_log):
+    def __init__(self, path_log: str):
         self.path_log = path_log
 
-    def build_df(self):
+    def build_df(self) -> pd.DataFrame:
         """
         The function creates a dataframe based on the selected log file
         """

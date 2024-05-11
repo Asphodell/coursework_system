@@ -12,10 +12,10 @@ class Statistics:
     This class contains three methods of data selection
     """
 
-    def __init__(self, df_log):
+    def __init__(self, df_log: pd.DataFrame):
         self.df_log = df_log
 
-    def create_df_time_and_user(self):
+    def create_df_time_and_user(self) -> pd.DataFrame:
         """
         The function tracks for each user their time spent
         """
@@ -66,7 +66,7 @@ class Statistics:
 
         return df_time_user
 
-    def create_df_total_time(self):
+    def create_df_total_time(self) -> pd.DataFrame:
         """ 
         The function calculates the total time spent by each user
         """
@@ -111,7 +111,7 @@ class Statistics:
 
         return df
 
-    def create_df_start_and_stop(self):
+    def create_df_start_and_stop(self) -> pd.DataFrame:
         '''
         The function defines the activation and deactivation points
         '''
