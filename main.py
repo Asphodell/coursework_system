@@ -1,6 +1,11 @@
+'''
+Starting the Data Analytics System
+'''
+
 import argparse
 import pathlib
 from datetime import date
+import os
 
 import floating_parser
 import floating_statistics
@@ -10,32 +15,41 @@ import floating_web
 
 
 def main():
+    '''
+    Working with modules
+    '''
 
-    #default_logs_path = pathlib.Path().cwd() / "tfs-log.txt"
-    #argparser = argparse.ArgumentParser(description="Logs data to graphs")
-    #argparser.add_argument(
-    #    "-p",
-    #    "--logs-path",
-    #    action="store",
-    #    dest="logs_file",
-    #    required=True,
-    #    default=default_logs_path,
-    #    help=f"Full path to the Floating server logs file. Default path {default_logs_path}",
-    #)
-#
-    #argparser.add_argument(
-    #    "-s",
-    #    "--send",
-    #    action="store_true",
-    #    help="Login, password and receiver should be in config.json",
-    #)
-#
-    #args = argparser.parse_args()
-#
-    #file_path = args.logs_file
+    default_logs_path = pathlib.Path().cwd() / "tfs-log.txt"
+    argparser = argparse.ArgumentParser(description="Logs data to graphs")
     
-    file_path = ".\log_file1.txt"
-    print(file_path)
+    argparser.add_argument(
+        "-s",
+        "--send",
+        action="store_true",
+        help="Send report to mail. Login, password and receiver should be in config.json",
+    )
+
+    argparser.add_argument(
+        "-w",
+        "--web",
+        action="store_true",
+        help=f"Open web app where user can interact with graphs. Use full path to the Floating server logs file. Default path {default_logs_path}", 
+    )
+
+    argparser.add_argument(
+        "-p",
+        "--logs-path",
+        action="store",
+        dest="logs_file",
+        required=True,
+        default=default_logs_path,
+        help=f"Full path to the Floating server logs file. Default path {default_logs_path}",
+    )
+
+    args = argparser.parse_args()
+
+    file_path = args.logs_file
+
     lp = floating_parser.LogParser(file_path)
     df = lp.build_df()
 
@@ -52,22 +66,30 @@ def main():
     )
 
     vz.to_one()
-    
+
     total_time_bar = vz.total_time_bar()
+    total_time_altair = vz.total_time_altair()
     users_graph = vz.users_graph()
     start_stop_graph = vz.start_stop_graph()
 
-    #if args.send:
-    #    snd = floating_mail_sender.Sender(
-    #        "Report " + str(date.today()), "report " + str(date.today()) + ".html"
-    #    )
-    #    snd.send_mail()
-
+    if args.send:
+        snd = floating_mail_sender.Sender(
+            "Report " + str(date.today()), "report " + str(date.today()) + ".html"
+        )
+        snd.send_mail()
 
     title = "Report " + str(date.today())
-    app = floating_web.App(title, total_time_bar, users_graph, start_stop_graph)
+    app = floating_web.App(title,
+                            total_time_bar, 
+                            users_graph, 
+                            start_stop_graph, 
+                            total_time_altair
+                            )
 
     app.start_app() 
+
+    if args.web:
+        os.system(rf'streamlit run .\main.py -- -p {file_path}')
 
 if __name__ == "__main__":
     main()
