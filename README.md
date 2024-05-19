@@ -10,7 +10,7 @@ floatingparser — это библиотека для обработки лог�
 
 # Как начать работу с Floating Parser? 
 
-1. Установите Floating Server с помощью pip:
+1. Установите Floating Parser с помощью pip:
    
    pip install floatingparser
    
