@@ -1,28 +1,20 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
-def readme():
-    with open('README.md', 'r') as f:
-        return f.read()
+with open("README.md", "r", encoding='utf-8') as fh:
+      long_description = fh.read()
 
-setup(
-    name='floating-parser',
-    version='1.0.0',
-    author='Asphodel',
-    author_email='asphodelj@yandex.ru',
-    description='Parser for floating sub system',
-    long_description=readme(),
-    long_description_content_type='text/markdown',
-    url='https://github.com/Asphodell/coursework_system',
-    packages=find_packages(),
-    install_requires=['requests>=2.25.1'],
-    classifiers=[
-        'Programming Language :: Python :: 3.11',
-        'License :: OSI Approved :: MIT License',
-        'Operating System :: OS Independent'
-  ],
-  keywords='example python',
-  project_urls={
-    'Documentation': 'link'
-  },
-  python_requires='>=3.7'
-)
+setup(name='floatingparser',
+      version='1.0.2.3',
+      install_requires = ['numpy',
+                          'pandas',
+                          'plotly',
+                          'streamlit'
+                          ],
+      author='Vladislav "Asphodel" Shabalin',
+      description='Parser for floating server logs',
+      long_description=long_description,  
+      long_description_content_type='text/markdown',
+      packages=['floatingparser'],
+      author_email='vladislaus.shabalin@yandex.ru',
+      url="https://github.com/Asphodell/coursework_system",
+      zip_safe=False)
