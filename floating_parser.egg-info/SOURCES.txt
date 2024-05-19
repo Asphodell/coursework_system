@@ -1,8 +1,0 @@
-README.md
-setup.cfg
-setup.py
-floating_parser.egg-info/PKG-INFO
-floating_parser.egg-info/SOURCES.txt
-floating_parser.egg-info/dependency_links.txt
-floating_parser.egg-info/requires.txt
-floating_parser.egg-info/top_level.txt

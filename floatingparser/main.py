@@ -6,15 +6,16 @@ import argparse
 import pathlib
 from datetime import date
 import os
+import sys
 
-import floating_parser
-import floating_statistics
-import floating_visualizer
-import floating_mail_sender
-import floating_web
+from .floating_parser import LogParser
+from .floating_statistics import Statistics
+from .floating_visualizer import Visualizer
+from .floating_mail_sender import Sender
+from .floating_web import App
 
 
-def main():
+def FloatingStart():
     '''
     Working with modules
     '''
@@ -50,16 +51,16 @@ def main():
 
     file_path = args.logs_file
 
-    lp = floating_parser.LogParser(file_path)
+    lp = LogParser(file_path)
     df = lp.build_df()
 
-    st = floating_statistics.Statistics(df)
+    st = Statistics(df)
 
     df_time_user = st.create_df_time_and_user()
     df_total_time = st.create_df_total_time()
     df_start_stop = st.create_df_start_and_stop()
 
-    vz = floating_visualizer.Visualizer(
+    vz = Visualizer(
         df_time_user,
         df_total_time,
         df_start_stop,
@@ -73,13 +74,13 @@ def main():
     start_stop_graph = vz.start_stop_graph()
 
     if args.send:
-        snd = floating_mail_sender.Sender(
+        snd = Sender(
             "Report " + str(date.today()), "report " + str(date.today()) + ".html"
         )
         snd.send_mail()
 
     title = "Report " + str(date.today())
-    app = floating_web.App(title,
+    app = App(title,
                             total_time_bar, 
                             users_graph, 
                             start_stop_graph, 
@@ -89,7 +90,8 @@ def main():
     app.start_app() 
 
     if args.web:
-        os.system(rf'streamlit run .\main.py -- -p {file_path}')
+        file_name = sys.argv[0]
+        os.system(rf'streamlit run {file_name} -- -p {file_path}')
 
 if __name__ == "__main__":
-    main()
+    FloatingStart()

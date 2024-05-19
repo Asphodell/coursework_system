@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: floatingparser
+Version: 1.0.2.3
+Summary: Parser for floating server logs
+Home-page: https://github.com/Asphodell/coursework_system
+Author: Vladislav "Asphodel" Shabalin
+Author-email: vladislaus.shabalin@yandex.ru
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: plotly
+Requires-Dist: streamlit
+
+# FloatingParser System
+
+floatingparser — это библиотека для обработки логов FloatingServer, которая позволяет создать статистику по журналам событий. О
+
+ *  * Особенности: *  * 
+
+-  *  * Простота использования: *  * python "file_name.py" [args]
+-  *  * Поддержка форматов логов: *  *  Поддерживает формат логов ".txt".
+-  *  * Открытый исходный код: *  *  Библиотека полностью открыта и доступна для просмотра и редактирования.
+
+ *  * Как начать работу с Floating Server? *  * 
+
+1. Установите Floating Server с помощью pip:
+   
+   pip install floatingparser
+   
+2. Импортируйте библиотеку в ваш проект:
+   
+   import floatingparser as fp
+   
+3. Создайте объект сервера логирования:
+   
+   parser = fp.FloatingStart()
+
+4. Запустите программу через коммандную строку и укажите нужные аргументы*:
+   
+   python "file_name.py" [args]
+
+*-Список аргументов можно вывести с помощью --help (-h)
