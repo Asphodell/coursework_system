@@ -32,10 +32,10 @@ class LogParser:
                     time_user = np.array(date_time_type[1])
                     type_act = np.array(date_time_type[2][:-1])
 
-                df_log = pd.concat(
-                    [pd.DataFrame([[date, time_user, type_act, action]]), df_log],
-                    ignore_index=True,
-                )
+                    df_log = pd.concat(
+                        [pd.DataFrame([[date, time_user, type_act, action]]), df_log],
+                        ignore_index=True,
+                    )
 
         df_log.rename(
             columns={0: "Date", 1: "Time", 2: "Type", 3: "Action"}, inplace=True
