@@ -22,7 +22,7 @@ def FloatingStart():
 
     default_logs_path = pathlib.Path().cwd() / "tfs-log.txt"
     argparser = argparse.ArgumentParser(description="Logs data to graphs")
-    
+
     argparser.add_argument(
         "-s",
         "--send",
@@ -34,7 +34,8 @@ def FloatingStart():
         "-w",
         "--web",
         action="store_true",
-        help=f"Open web app where user can interact with graphs. Use full path to the Floating server logs file. Default path {default_logs_path}", 
+        help=f"Open web app where user can interact with graphs. \
+            Use full path to the Floating server logs file. Default path {default_logs_path}",
     )
 
     argparser.add_argument(
@@ -81,13 +82,13 @@ def FloatingStart():
 
     title = "Report " + str(date.today())
     app = App(title,
-                            total_time_bar, 
-                            users_graph, 
-                            start_stop_graph, 
+                            total_time_bar,
+                            users_graph,
+                            start_stop_graph,
                             total_time_altair
                             )
 
-    app.start_app() 
+    app.start_app()
 
     if args.web:
         file_name = sys.argv[0]
