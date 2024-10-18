@@ -21,7 +21,11 @@ class Visualizer:
         + px.colors.qualitative.Light24
     )  # count of colors: 74
 
-    def __init__(self, df_t_time_and_user: pd.DataFrame, df_total_time: pd.DataFrame, df_start_and_stop: pd.DataFrame):
+    def __init__(self,
+                df_t_time_and_user: pd.DataFrame,
+                df_total_time: pd.DataFrame,
+                df_start_and_stop: pd.DataFrame):
+
         self.df_time_and_user = df_t_time_and_user
         self.df_total_time = df_total_time
         self.df_start_and_stop = df_start_and_stop
@@ -149,5 +153,5 @@ class Visualizer:
         date_today = str(date.today())
         with open(f"report {date_today}" + ".html", "a", encoding="utf-8") as f:
             f.write(total_graph.to_html(full_html=False, include_plotlyjs="cdn"))
-            f.write(users_graph.to_html(full_html=False, include_plotlyjs="cdn")) 
+            f.write(users_graph.to_html(full_html=False, include_plotlyjs="cdn"))
             f.write(start_stop_graph.to_html(full_html=True, include_plotlyjs="cdn"))
