@@ -10,7 +10,10 @@ class App:
     Application
     """
 
-    def __init__(self, title, fig_total_time, fig_users_graph, fig_start_stop_graph, fig_total_time_altair):
+    def __init__(self, title,
+                fig_total_time, fig_users_graph,
+                fig_start_stop_graph, fig_total_time_altair):
+
         self.title = title
 
         self.fig_total_time = fig_total_time
@@ -37,7 +40,8 @@ class App:
         fig = self.fig_total_time
 
         st.write(
-            "Pie diagram, where you can see how much time each user spent during the reporting period"
+            "Pie diagram, where you can see how much time \
+            each user spent during the reporting period"
         )
 
         st.plotly_chart(fig)
@@ -51,7 +55,8 @@ class App:
 
         fig = self.fig_total_time_altair
 
-        st.write("Bar chart, where you can see how much time each user spent during the reporting period")
+        st.write("Bar chart, where you can see how much time \
+            each user spent during the reporting period")
 
         st.plotly_chart(fig)
 
@@ -93,8 +98,8 @@ class App:
         Placing Objects on an Application Page
         '''
 
-        page = st.sidebar.selectbox("Choose page", 
-                            ["Total time", 
+        page = st.sidebar.selectbox("Choose page",
+                            ["Total time",
                             "Users graph",
                             "Start and stop graph",
                             "Summarized report"])
@@ -104,14 +109,14 @@ class App:
         if page == "Total time":
             self.add_total_time_bar()
 
-            self.add_altair_bar() 
+            self.add_altair_bar()
 
         if page == "Users graph":
             self.add_users_graph()
 
         if page == "Start and stop graph":
             self.add_start_stop_graph()
-        
+
         if page == "Summarized report":
             self.add_total_time_bar()
             st.divider()
