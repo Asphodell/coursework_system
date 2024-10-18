@@ -1,5 +1,6 @@
 """
-The module is responsible for sending an email message to the addressee by attaching the finished report
+The module is responsible for sending an email message to the addressee
+by attaching the finished report
 """
 
 import json
