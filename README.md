@@ -11,18 +11,18 @@ floatingparser — это библиотека для обработки лог�
 
 1. Установите Floating Parser с помощью pip:
    
-   pip install floatingparser
+   `pip install floatingparser`
    
 2. Импортируйте библиотеку в ваш проект:
    
-   import floatingparser as fp
+   `import floatingparser as fp`
    
 3. Создайте объект FloatingParser:
    
-   parser = fp.FloatingStart()
+   `parser = fp.FloatingStart()`
 
 4. Запустите ваш файл через командную строку и укажите нужные аргументы*:
-   
-   python "file_name.py" [args]
+
+   `python "file_name.py" [args]`
 
 *-Список аргументов можно вывести с помощью --help (-h)
