@@ -46,7 +46,7 @@ class Visualizer:
             color_discrete_sequence=df_with_color["Color"],
         )
 
-        fig.write_html("total_time.html")
+        # fig.write_html("total_time.html")
 
         return fig
 
@@ -63,7 +63,7 @@ class Visualizer:
             df, x="User", y="Total Time", color_discrete_sequence=df_with_color["Color"]
         )
 
-        fig.write_html("total_time_altair.html")
+        # fig.write_html("total_time_altair.html")
 
         return fig
 
@@ -127,7 +127,8 @@ class Visualizer:
                     ]
 
         fig.update_layout(showlegend=False)
-        fig.write_html("users_graph.html")
+
+        # fig.write_html("users_graph.html")
         return fig
 
     def start_stop_graph(self) -> px.scatter:
@@ -138,7 +139,7 @@ class Visualizer:
         df = self.df_start_and_stop
         fig = px.scatter(df, x="Time", y="Process")
 
-        fig.write_html("start_stop_graph.html")
+        # fig.write_html("start_stop_graph.html")
 
         return fig
 
@@ -151,7 +152,7 @@ class Visualizer:
         users_graph = self.users_graph()
         start_stop_graph = self.start_stop_graph()
         date_today = str(date.today())
-        with open(f"report {date_today}" + ".html", "a", encoding="utf-8") as f:
-            f.write(total_graph.to_html(full_html=False, include_plotlyjs="cdn"))
-            f.write(users_graph.to_html(full_html=False, include_plotlyjs="cdn"))
-            f.write(start_stop_graph.to_html(full_html=True, include_plotlyjs="cdn"))
+        # with open(f"report {date_today}" + ".html", "a", encoding="utf-8") as f:
+        #     f.write(total_graph.to_html(full_html=False, include_plotlyjs="cdn"))
+        #     f.write(users_graph.to_html(full_html=False, include_plotlyjs="cdn"))
+        #     f.write(start_stop_graph.to_html(full_html=True, include_plotlyjs="cdn"))
