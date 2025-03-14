@@ -152,7 +152,8 @@ class Visualizer:
         users_graph = self.users_graph()
         start_stop_graph = self.start_stop_graph()
         date_today = str(date.today())
-        # with open(f"report {date_today}" + ".html", "a", encoding="utf-8") as f:
-        #     f.write(total_graph.to_html(full_html=False, include_plotlyjs="cdn"))
-        #     f.write(users_graph.to_html(full_html=False, include_plotlyjs="cdn"))
-        #     f.write(start_stop_graph.to_html(full_html=True, include_plotlyjs="cdn"))
+
+        with open(f"report {date_today}" + ".html", "a", encoding="utf-8") as f:
+            f.write(total_graph.to_html(full_html=False, include_plotlyjs="cdn"))
+            f.write(users_graph.to_html(full_html=False, include_plotlyjs="cdn"))
+            f.write(start_stop_graph.to_html(full_html=True, include_plotlyjs="cdn"))
