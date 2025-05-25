@@ -72,42 +72,16 @@ class Statistics:
         """
 
         df = self.create_df_time_and_user()
-        difference_column = pd.DataFrame()
-        total = 0
 
-        for i in range(len(df)):
-            difference = datetime.datetime.strptime(
-                str(df["End Time"].loc[df.index[i]]), "%H:%M:%S"
-            ) - datetime.datetime.strptime(
-                str(df["Begin Time"].loc[df.index[i]]), "%H:%M:%S"
-            )
-            if difference.total_seconds() < 0:
-                difference = (24 * 60 * 60) + difference.total_seconds()
-            else:
-                difference = difference.total_seconds()
-            difference_column = pd.concat(
-                [pd.DataFrame([[difference]]), difference_column], ignore_index=True
-            )
+        df['Datetime_begin'] = pd.to_datetime(df['Date'].astype(str) + ' ' + df["Begin Time"].astype(str))
+        df['Datetime_end'] = pd.to_datetime(df['Date'].astype(str) + ' ' + df['End Time'].astype(str))
 
-        difference_column = difference_column[::-1].reset_index(drop=True)
-        df["Diff"] = difference_column
-        df = df.rename_axis("index")
-        df = df.sort_values(by=["User", "index"])
+        df['Diff'] = df['Datetime_end'] - df["Datetime_begin"]
+        df['Diff'] = df['Diff'].abs()
 
-        total_column = pd.DataFrame()
+        df = df.groupby(by='User')['Diff'].sum().reset_index().rename(columns={'Diff': 'Total Time'})
 
-        for i in range(len(df) - 1):
-            if df["User"].loc[df.index[i]] == df["User"].loc[df.index[i + 1]]:
-                total += df["Diff"].loc[df.index[i]] + df["Diff"].loc[df.index[i]]
-            else:
-                total_column = pd.concat(
-                    [pd.DataFrame([[total]]), total_column], ignore_index=True
-                )
-                total = 0
-
-        df = df.groupby("User").sum(numeric_only=True)
-        df = df.reset_index()
-        df = df.rename(columns={"Diff": "Total Time"})
+        df['Total Time'] = df['Total Time'].dt.total_seconds() / 60
 
         return df
 
