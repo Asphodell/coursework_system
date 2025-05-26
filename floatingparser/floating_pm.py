@@ -17,7 +17,6 @@ class ProcessMiner:
 
         self.net, self.initial_marking, self.final_marking = alpha_miner.apply(self.pm_log)
 
-
     def build_alplha_miner(self):
         net = self.net
         initial_marking = self.initial_marking
@@ -48,3 +47,5 @@ class ProcessMiner:
         dfg, start_activities, end_activities = discover_dfg(pm_log)
 
         pm4py.view_dfg(dfg, start_activities=start_activities, end_activities=end_activities)
+
+        pm4py.save_vis_dfg(dfg=dfg, start_activities=start_activities, end_activities=end_activities, file_path='dfg.png')
