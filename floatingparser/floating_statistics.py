@@ -122,3 +122,14 @@ class Statistics:
         df_start_stop.rename(columns={0: "Time", 1: "Process"}, inplace=True)
 
         return df_start_stop
+
+    def build_process_mining_log(self):
+        df_process_mining = self.df_log
+
+        df_process_mining['User'] = df_process_mining['Action'].str.extract(r"(\(.*?\))")
+
+        df_process_mining['Datetime'] = pd.to_datetime(df_process_mining['Date'].astype(str) + ' ' + df_process_mining["Time"].astype(str))
+
+        del df_process_mining['Type'], df_process_mining["Date"], df_process_mining['Time']
+
+        return df_process_mining.dropna()

@@ -8,12 +8,12 @@ from datetime import date
 import os
 import sys
 
-from .floating_parser import LogParser
-from .floating_statistics import Statistics
-from .floating_visualizer import Visualizer
-from .floating_mail_sender import Sender
-from .floating_web import App
-
+from floating_parser import LogParser
+from floating_statistics import Statistics
+from floating_visualizer import Visualizer
+from floating_mail_sender import Sender
+from floating_web import App
+from floating_pm import ProcessMiner
 
 def FloatingStart():
     '''
@@ -73,6 +73,14 @@ def FloatingStart():
     total_time_altair = vz.total_time_altair()
     users_graph = vz.users_graph()
     start_stop_graph = vz.start_stop_graph()
+
+    df_process_mining = st.build_process_mining_log()
+
+    pm = ProcessMiner(df_process_mining)
+
+    alpha_graph = pm.build_alplha_miner()
+    bpmn = pm.build_bpmn()
+    dfg = pm.build_dfg()
 
     if args.send:
         snd = Sender(
